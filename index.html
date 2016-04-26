@@ -1,0 +1,85 @@
+---
+layout: default
+title: Home
+---
+  <section id="video-mask-kcc">
+    <video id="video" muted autoplay loop>
+        <source src="assets/kcc_manufacturing_technology--start here_finish_anywhere.mp4" type="video/mp4">
+        <source src="assets/kcc_manufacturing_technology--start_here_finish_an.webm" type="video/webm">
+    </video>
+    <div class="header-container">
+    <div class="header-heading">
+    <h1 id="text2" class="text2"><img src="assets/img/power-of-community-banner.svg" alt="Power of community banner"></h1>
+    <i class="header-cta"></i>
+  </div>
+</div>
+  </section>
+  <section id="home" class="power-of-community">
+    <h2 id="text3" class="text3"><span class="p1">Things </span><span class="p1">to </span><span class="p1">be </span><span class="p1">said </span><span class="p1">about </span><span class="p1">community</span></h2>
+  </section>
+  <section id="humble-beginning" class="humble-beginning">
+    <div class="beginnings">
+  		<div class="container">
+  			<div class="paracontent-a">
+  				<hr>
+  				<h2>KCC's humble beginnings</h2>
+  				<p>Tribong began as Billabong’s founder Gordon Merchant’s vision of what a boardshort should look like. <strong>After countless sketches</strong>, and testing the shorts in the waves of Burleigh and Angourie, <strong>Tribong was created.</strong></p>
+  			</div>
+  			<div class="img-block-a">
+  				<img src="/assets/img/Oversize-staff-photos005.jpg" alt="Graduation photo" title="" class="img-responsive">
+  			</div>
+  			<div class="img-block-b">
+  				<img src="/assets/img/directionsign.jpg" alt="" title="" class="img-responsive">
+  			</div>
+  		</div>
+  	</div>
+  </section>
+  <section class="row fifty">
+    <div id="free-courses" class="col-50 flex flex--center">
+      <div class="col-1">
+        <h2 class="home-lead">50 Free courses</h2>
+        <a href="/courses/" class="button home-cta">See our full list of 50</a>
+      </div>
+    </div>
+    <div id="points-of-interest" class="col-50 flex flex--center">
+      <div class="col-1">
+        <h2 class="home-lead">50 Points of interest</h2>
+        <a href="/points/" class="button home-cta">50 points of interest</a>
+      </div>
+    </div>
+  </section>
+  <section class="row timeline">
+    <div id="home-timeline" class="col-33 flex flex--center">
+      <div class="col-1">
+        <h2 class="home-lead">Timeline</h2>
+        <a href="/timeline/" class="button home-cta">Timeline</a>
+      </div>
+    </div>
+    <div id="home-events" class="col-33 flex flex--center">
+      <div class="col-1">
+        <h2 class="home-lead">Events</h2>
+        <ul>
+          {% for event in site.data.events %}
+            <li>
+              <img src="http://www.fillmurray.com/230/80" />
+              <a href="{{ event.url }}">{{ event.name }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+        <a href="/events/" class="button home-cta">Full event list</a>
+      </div>
+    </div>
+    <div id="contact" class="col-33 contact flex flex--center">
+      <div class="col-1">
+        <h2 class="home-lead">Contact</h2>
+        <a href="/contact/" class="button home-cta">Contact us now</a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="col-1">
+      <p>The Power of Community</p>
+      100 College Drive Kankakee, IL 60901 | Ph: 815-802-8100
+      &copy; 2016 Kankakee Community College
+    </div>
+  </footer>

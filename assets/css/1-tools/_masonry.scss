@@ -1,0 +1,322 @@
+.grid-wrap {
+  clear: both;
+  margin: 0 auto;
+  max-width: 1260px;
+  padding: 0;
+}
+
+.grid {
+  list-style: none;
+  margin: 30px auto;
+  min-height: 500px;
+  padding: 0;
+}
+
+.js .grid {
+  background: url("../img/loading.gif") no-repeat 50% 100px;
+}
+
+.js .grid.loaded {
+  background: none;
+}
+
+.grid li {
+  display: inline-block;
+  overflow: hidden;
+  text-align: left;
+  vertical-align: top;
+  width: 314px;
+}
+
+.js .grid li {
+  display: none;
+  float: left;
+}
+
+.js .grid.loaded li {
+  display: block;
+}
+/* Title box */
+.title-box h2 {
+  background: $navy-blue;
+  color: #D3EEE2;
+  display: block;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin: 7px;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.title-box h2 a {
+  display: block;
+  font-weight: 900;
+}
+
+.title-box h2 a:hover {
+  color: #D3EEE2;
+}
+/* Anchor and image */
+.grid li > a,
+.grid li img {
+  border: none;
+  display: block;
+  outline: none;
+}
+
+.grid li > a {
+  margin: 7px;
+  overflow: hidden;
+  position: relative;
+}
+/* Curtain element */
+.grid .curtain {
+  background: #96cdc8;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.grid.swipe-right .curtain {
+  -webkit-transform: translate3d(-100%,0,0);
+  transform: translate3d(-100%,0,0);
+}
+
+.grid.swipe-down .curtain {
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+}
+
+.grid.swipe-rotate .curtain {
+  height: 200%;
+  width: 200%;
+  -webkit-transform: rotate3d(0,0,1,90deg);
+  transform: rotate3d(0,0,1,90deg);
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+}
+/* Shadow */
+.grid .curtain::after {
+  background: rgba(0,0,0,1);
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.grid.swipe-right .curtain::after,
+.grid.swipe-rotate .curtain::after {
+  left: -100%;
+}
+
+.grid.swipe-down .curtain::after {
+  top: -100%;
+}
+/* Title */
+.grid li h3 {
+  background: $navy-blue;
+  bottom: 0;
+  color: #D3EEE2;
+  font-size: 1em;
+  font-weight: 800;
+  left: 0;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 20px;
+  position: absolute;
+  text-align: right;
+  text-transform: uppercase;
+  -webkit-transition: -webkit-transform 0.2s, color 0.2s;
+  transition: transform 0.2s, color 0.2s;
+  width: 100%;
+}
+/* Pseudo element for hover effect */
+.grid li > a::before {
+  background: rgba(0,0,0,0);
+  border: 0 solid transparent;
+  content: '';
+  height: 100.5%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition: border-width 0.2s, border-color 0.2s;
+  transition: border-width 0.2s, border-color 0.2s;
+  width: 100.5%;
+}
+/* Hover effects */
+.grid li.shown:hover h3 {
+  color: #fff;
+  -webkit-transform: translate3d(0,-30px,0);
+  transform: translate3d(0,-30px,0);
+}
+
+.grid li.shown:hover > a::before {
+  border-color: $navy-blue;
+  border-width: 14px;
+}
+/* Animations */
+/* Swipe right */
+.grid.swipe-right li.animate .curtain {
+  -webkit-animation: swipeRight 1.5s cubic-bezier(0.6,0,0.4,1) forwards;
+  animation: swipeRight 1.5s cubic-bezier(0.6,0,0.4,1) forwards;
+}
+@-webkit-keyframes swipeRight {
+  0% {}
+  /* fixes Chrome 35.0.1916.114 issue (easing breaks) */
+  50%,
+  60% {
+    -webkit-transform: translate3d(0,0,0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(100%,0,0);
+  }
+}
+@keyframes swipeRight {
+  0% {}
+
+  50%,
+  60% {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate(0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+/* Swipe down */
+.grid.swipe-down li.animate .curtain {
+  -webkit-animation: swipeDown 1.5s cubic-bezier(0.6,0,0.4,1) forwards;
+  animation: swipeDown 1.5s cubic-bezier(0.6,0,0.4,1) forwards;
+}
+@-webkit-keyframes swipeDown {
+  0% {}
+  /* fixes Chrome 35.0.1916.114 issue (easing breaks) */
+  50%,
+  60% {
+    -webkit-transform: translate3d(0,0,0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0,100%,0);
+  }
+}
+@keyframes swipeDown {
+  0% {}
+
+  50%,
+  60% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+  }
+}
+/* Swipe rotate */
+.grid.swipe-rotate li.animate .curtain {
+  -webkit-animation: swipeRotate 1.5s ease forwards;
+  animation: swipeRotate 1.5s ease forwards;
+}
+@-webkit-keyframes swipeRotate {
+  0% {}
+  /* fixes Chrome 35.0.1916.114 issue (easing breaks) */
+  50%,
+  60% {
+    -webkit-transform: rotate3d(0,0,1,0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate3d(0,0,1,-90deg);
+  }
+}
+@keyframes swipeRotate {
+  0% {}
+
+  50%,
+  60% {
+    -webkit-transform: rotate3d(0,0,1,0deg);
+    transform: rotate3d(0,0,1,0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate3d(0,0,1,-90deg);
+    transform: rotate3d(0,0,1,-90deg);
+  }
+}
+/* Shadow */
+.grid li.animate .curtain::after {
+  -webkit-animation: fadeOut 1.5s ease forwards;
+  animation: fadeOut 1.5s ease forwards;
+  -webkit-animation-delay: inherit;
+  animation-delay: inherit;
+}
+@-webkit-keyframes fadeOut {
+  0% {}
+  /* fixes Chrome 35.0.1916.114 issue (easing breaks) */
+  50%,
+  60% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadeOut {
+  0% {}
+
+  50%,
+  60% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+/* Hide image and title and show at half time */
+.js .grid li h3,
+.js .grid li img {
+  visibility: hidden;
+}
+
+.grid li.animate h3,
+.grid li.animate img {
+  -webkit-animation: showMe 1.5s step-end forwards;
+  animation: showMe 1.5s step-end forwards;
+}
+@-webkit-keyframes showMe {
+  from {
+    visibility: hidden;
+  }
+
+  100%,
+  60% {
+    visibility: visible;
+  }
+}
+@keyframes showMe {
+  from {
+    visibility: hidden;
+  }
+
+  100%,
+  60% {
+    visibility: visible;
+  }
+}
+
+.grid li.shown h3,
+.grid li.shown img {
+  visibility: visible;
+}

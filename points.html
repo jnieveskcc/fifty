@@ -1,0 +1,10 @@
+---
+layout: masonry
+title: 50 Points of Interest
+---
+
+{% for points in site.data.points %}
+  <li>
+    <a href="#"><img src="/assets/img/dummy.png" alt="{{ points.Title }}"><h3>{{ points.Title }}</h3></a>
+  </li>
+{% endfor %}

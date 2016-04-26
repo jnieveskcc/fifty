@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>{% if page.title %} {{ page.title }} @ {% endif %} fifty KCC</title>
+		<link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="/assets/css/main.css" media="screen" charset="utf-8">
+		<script src="/assets/js/modernizr.custom.js"></script>
+		<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+		{% if page.url == '/timeline/' %}
+		<script src="/assets/js/jquery.timelinr-0.9.6.js"></script>
+		<script>
+			$(function(){
+				$().timelinr({
+					orientation: 	'vertical',
+					issuesSpeed: 	300,
+					datesSpeed: 	100,
+					arrowKeys: 		'true',
+					startAt:			3
+				})
+			});
+		</script>
+		{% endif %}
+  </head>
+  <body>
+    <div class="content-wrap">
+			<div class="mobile-nav">
+				<ul>
+					{% if page.url == '/' %}
+					<li><a href="#home">Home</a></li>
+					<li><a href="#free-courses">50 Free courses</a></li>
+					<li><a href="#points-of-interest">50 Points of interest</a></li>
+					<li><a href="#home-timeline">Timeline</a></li>
+					<li><a href="#home-events">Events</a></li>
+					<li><a href="#contact">Contact</a></li>
+					{% endif %}
+					{% if page.url != '/' %}
+					<li><a href="/">&lt; home</a></li>
+					{% endif %}
+				</ul>
+			</div>
+	    <header>
+	      <div class="header-position">
+	        <h1 class="logo">KCC 50 Site</h1>
+	        <nav class="site-nav">
+	          <ul>
+							{% if page.url == '/' %}
+	            <li><a href="#home">Home</a></li>
+	            <li><a href="#free-courses">50 Free courses</a></li>
+							<li><a href="#points-of-interest">50 Points of interest</a></li>
+							<li><a href="#home-timeline">Timeline</a></li>
+							<li><a href="#home-events">Events</a></li>
+	            <li><a href="#contact">Contact</a></li>
+							{% endif %}
+							{% if page.url != '/' %}
+							<li><a href="/">&lt; home</a></li>
+							{% endif %}
+	          </ul>
+	        </nav>
+	        <div></div>
+					<div class="mobile-nav-toggle"><span></span></div></div>
+	    </header>

@@ -1,0 +1,10 @@
+---
+layout: masonry
+title: 50 Free Courses
+---
+
+{% for course in site.data.courses %}
+  <li>
+    <a href="#"><img src="/assets/img/dummy.png" alt="{{ course.Title }}"><h3>{{ course.Title }}</h3></a>
+  </li>
+{% endfor %}

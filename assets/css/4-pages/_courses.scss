@@ -1,0 +1,14 @@
+section.grid-wrap {
+  padding: 1em;
+  text-align: center;
+}
+
+section.article {
+  background-color: $bone-white;
+  min-height: 100vh;
+  padding-left: 20px;
+}
+
+section.article h1 {
+  color: $violet;
+}

@@ -1,0 +1,58 @@
+//fall back font stack for site
+$basefont-stack: "Noto Serif", Georgia, serif;
+$base-font-size: 17px;
+$secondaryfont-stack: "Bebas Neue", Arial, Helvetica, sans-serif;
+//Image path for most of global style sheet
+$imagedir: '../images/';
+//KCC colors
+$primary-blue: #003768;
+// Dark blue-
+$primary-red: #C60b46;
+// Dark red-
+$accent-blue: #005BAC;
+// Blue- used in all links and link buttons;
+$accent-blue-bright: #227dce; // Blue- used in all links hovers and link hovers buttons;
+$accent-brown: #80561B;
+$accent-light-blue: #95a9ca;
+$accent-olive-green: #8d8b00; // olive-green used in search
+$accent-purple: #8d2187;
+//Theme colors for site
+$dark-navy-blue: #00284d;
+$navy-blue: #0f3d63;
+$ochre: #f6d189;
+$light-blue-grey: #cedee3;
+$rust-orange: #cc4e47;
+$dark-blue-green: #006c59;
+$orange: #f4a634;
+$violet: #741f45;
+$bone-white: #f8f6e6;
+$orange-red: #ee5a49;
+$turquois: #79cccb;
+// Standard palette, greys
+$black: #000;
+$grey-1: #555;
+$grey-2: #999;
+$grey-3: #BFBFBF;
+$grey-4: #ccc;
+$grey-5: #D8D8D8;
+$grey-6: #eee;
+$grey-7: #F2F2F2;
+$white: #fff;
+// Semantic colour names
+$link-colour: $accent-blue;
+$link-active-colour: $accent-blue;
+$link-hover-colour: $accent-blue-bright;
+$link-visited-colour: $accent-blue;
+$button-colour: $accent-blue;
+$button-hover-colour: $accent-blue-bright;
+$text-colour: $black;
+// Standard text colour
+$text-secondary-colour: $white;
+// Text colour used in most buttons, section headers, help text etc.
+$selector-color: $ochre;
+$border-colour: $grey-2;
+// Borders, seperators, rules, keylines etc.
+$panel-colour: $grey-3;
+// Related links panel, page footer etc.
+//$highlight-colour: $grey-4;        // Table stripes etc.
+$divider-color: $grey-5;
