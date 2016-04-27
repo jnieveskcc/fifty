@@ -24,14 +24,20 @@
 		</script>
 		{% endif %}
   </head>
+	{% if page.url == '/events/' %}
+		<body class="events--page">
+	{% elsif page.url == '/courses/' %}
+		<body class="courses--page">
+	{% else %}
   <body>
+		{% endif %}
     <div class="content-wrap">
 			<div class="mobile-nav">
 				<ul>
 					{% if page.url == '/' %}
 					<li><a href="#home">Home</a></li>
 					<li><a href="#free-courses">50 Free courses</a></li>
-					<li><a href="#points-of-interest">50 Points of interest</a></li>
+					<li><a href="#points_of_interest">50 Points of interest</a></li>
 					<li><a href="#home-timeline">Timeline</a></li>
 					<li><a href="#home-events">Events</a></li>
 					<li><a href="#contact">Contact</a></li>
@@ -49,7 +55,7 @@
 							{% if page.url == '/' %}
 	            <li><a href="#home">Home</a></li>
 	            <li><a href="#free-courses">50 Free courses</a></li>
-							<li><a href="#points-of-interest">50 Points of interest</a></li>
+							<li><a href="#points_of_interest">50 Points of interest</a></li>
 							<li><a href="#home-timeline">Timeline</a></li>
 							<li><a href="#home-events">Events</a></li>
 	            <li><a href="#contact">Contact</a></li>

@@ -49,7 +49,19 @@ function humbleBeginningScroll() {
 function fiftyRowScroll() {
     var wScroll = $window.scrollTop();
 
-    if ($('section.row.fifty').offset().top - $window.height() / 1.2 < wScroll) {
+    if ($('section.row.section--free-courses').offset().top - $window.height() / 1.2 < wScroll) {
+        $('.col-50').each(function(i) {
+            setTimeout(function() {
+                $('.col-50').eq(i).addClass('is-visible');
+            }, 100 * i);
+        });
+    }
+}
+
+function pointsOfInterestScroll() {
+    var wScroll = $window.scrollTop();
+
+    if ($('section.row.section--points-of-interest').offset().top - $window.height() / 1.2 < wScroll) {
         $('.col-50').each(function(i) {
             setTimeout(function() {
                 $('.col-50').eq(i).addClass('is-visible');
@@ -77,6 +89,7 @@ $(document).ready(function() {
   $window.scroll(function() {
       humbleBeginningScroll();
       fiftyRowScroll();
+      pointsOfInterestScroll();
   });
 
   bindings();

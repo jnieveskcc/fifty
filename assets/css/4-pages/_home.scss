@@ -62,17 +62,17 @@ video {
 }
 
 .power-of-community {
-  background-color: $bone-white;
+  background-color: $ochre;
   position: relative;
 }
 
 #humble-beginning {
-  background-color: $turquois;
+  background-color: $orange-red;
   overflow:hidden;
 }
 
 #humble-beginning hr {
-  border: solid $black;
+  border: solid $text-secondary-colour;
   border-width: 1px 0 0;
   clear: both;
   height: 0;
@@ -164,8 +164,17 @@ video {
         transform: translatey(0px);
 }
 
-#free-courses {
-  background-color: $orange-red;
+.section--free-courses {
+ background-color: $bone-white;
+ min-height: 600px;
+ padding: 0 0;
+ -webkit-flex: 1;
+ -ms-flex: 1;
+ flex: 1;
+}
+
+.card--free-courses-a {
+  background-color: $bone-white;
   background-image: url("/assets/img/background.png");
   background-position: center;
   background-size: cover;
@@ -176,18 +185,31 @@ video {
         transform: translateX(-20px);
   transition: all 300ms ease-in-out;
 }
-#free-courses.is-visible{
+.card--free-courses-a.is-visible{
   opacity: 1;
   -webkit-transform: translateX(0px);
     -ms-transform: translateX(0px);
         transform: translateX(0px);
 }
 
-#free-courses h2 {
-  color: $bone-white;
+.card--free-courses-b.is-visible {
+  opacity: 1;
 }
 
-#points-of-interest {
+.card--headline {
+  color: $text-colour;
+}
+
+.section--points-of-interest {
+ background-color: $bone-white;
+ min-height: 600px;
+ padding: 0 0;
+ -webkit-flex: 1;
+ -ms-flex: 1;
+ flex: 1;
+}
+
+.card--points-of-interest-b {
   background-color: $bone-white;
   background-image: url("/assets/img/20100820_IMG_0969.png");
   background-position: center;
@@ -199,18 +221,19 @@ video {
 transition: all 300ms ease-in-out;
 }
 
-#points-of-interest.is-visible{
+.card--points-of-interest-b.is-visible{
   opacity: 1;
   -webkit-transform: translateX(0px);
     -ms-transform: translateX(0px);
         transform: translateX(0px);
 }
 
-#points-of-interest h2 {
+.card--headline h2 {
   color: $text-colour;
 }
 
-section.row.fifty,
+section.row.section--free-courses,
+section.row.section--points-of-interest,
 section.row.timeline {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -219,7 +242,7 @@ section.row.timeline {
 }
 
 footer {
-  background-color: $orange;
+  background-color: $ochre;
   height: 200px;
 }
 
@@ -252,7 +275,7 @@ footer {
   flex: 1;
 }
 
-.home-sections section {
+section {
   padding: 50px 0;
 }
 

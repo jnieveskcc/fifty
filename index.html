@@ -34,18 +34,24 @@ title: Home
   		</div>
   	</div>
   </section>
-  <section class="row fifty">
-    <div id="free-courses" class="col-50 flex flex--center">
+  <section id="free-courses" class="row section--free-courses">
+    <div class="col-50 flex flex--center card--free-courses-a">
+    </div>
+    <div class="col-50 flex flex--center card--free-courses-b">
       <div class="col-1">
-        <h2 class="home-lead">50 Free courses</h2>
+        <h2 class="card--headline">50 Free courses</h2>
         <a href="/courses/" class="button home-cta">See our full list of 50</a>
       </div>
     </div>
-    <div id="points-of-interest" class="col-50 flex flex--center">
+  </section>
+  <section id="points_of_interest" class="row section--points-of-interest">
+    <div class="col-50 flex flex--center card--points-of-interest-a">
       <div class="col-1">
-        <h2 class="home-lead">50 Points of interest</h2>
+        <h2 class="card--headline">50 Points of interest</h2>
         <a href="/points/" class="button home-cta">50 points of interest</a>
       </div>
+    </div>
+    <div class="col-50 flex flex--center card--points-of-interest-b">
     </div>
   </section>
   <section class="row timeline">
@@ -59,10 +65,12 @@ title: Home
       <div class="col-1">
         <h2 class="home-lead">Events</h2>
         <ul>
-          {% for event in site.data.events %}
+          {% for event in site.data.events | limit:4 %}
             <li>
-              <img src="http://www.fillmurray.com/230/80" />
-              <a href="{{ event.url }}">{{ event.name }}</a>
+              <a href="{{ event.url }}">{{ event.Title }}</a><br />
+              {{ event.Location }}<br />
+              {{ event.Date/Time }}<br />
+              {{ event.Description | truncate:100 }}
             </li>
           {% endfor %}
         </ul>
