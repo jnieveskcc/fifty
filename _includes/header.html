@@ -12,7 +12,7 @@
 		{% if page.url == '/timeline/' %}
 		<script src="/assets/js/jquery.timelinr-0.9.6.js"></script>
 		<script>
-			$(function(){
+			(function($){
 				$().timelinr({
 					orientation: 	'vertical',
 					issuesSpeed: 	300,
@@ -20,7 +20,7 @@
 					arrowKeys: 		'true',
 					startAt:			3
 				})
-			});
+			})(jQuery);
 		</script>
 		{% endif %}
   </head>
