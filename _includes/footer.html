@@ -1,8 +1,9 @@
 
     </div>
+    {% if page.url == '/' or page.url =='/index.html' %}
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-    <script src="/assets/js/functions.js"></script>
+    {% endif %}
     {% if page.url == '/courses/' or page.url =='/points/' %}
     <script src="/assets/js/masonry.pkgd.min.js"></script>
     <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
@@ -15,5 +16,6 @@
       } );
     </script>
     {% endif %}
+    <script src="/assets/js/functions.js"></script>
   </body>
 </html>
