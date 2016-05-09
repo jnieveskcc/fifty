@@ -8,29 +8,29 @@ var $body,
         scrollDuration: 300
     };
 
-    function onMobileToggleClick () {
-        var $this = $(this),
-            $navigation = $('.mobile-nav');
+  function onMobileToggleClick () {
+      var $this = $(this),
+          $navigation = $('.mobile-nav');
 
-        $this.toggleClass('is-open');
-        $navigation.toggleClass('is-open');
-    }
+      $this.toggleClass('is-open');
+      $navigation.toggleClass('is-open');
+  }
 
-    function onBlankLinkClick (e) {
-            var $this = $(this),
-                href = $this.attr('href'),
-                $target = $(href);
+  function onBlankLinkClick (e) {
+          var $this = $(this),
+              href = $this.attr('href'),
+              $target = $(href);
 
-            if ($target.length === 0) {
-                return;
-            }
+          if ($target.length === 0) {
+              return;
+          }
 
-            e.preventDefault();
+          e.preventDefault();
 
-            $body.animate({
-                scrollTop: $target.offset().top
-            }, settings.duration);
-        }
+          $body.animate({
+              scrollTop: $target.offset().top
+          }, settings.duration);
+      }
 
 function moduleAnimate(){
   var tl = new TimelineLite();

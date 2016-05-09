@@ -1,10 +1,12 @@
-#video-mask-kcc {
+//video-mask-kcc section begins here
+
+.home-intro {
   height: 720px;
   padding: 0;
   position: relative;
 }
 
-video {
+.home-intro video {
   height: auto;
   left: 50%;
   min-width: 100%;
@@ -16,7 +18,7 @@ video {
   z-index: -1;
 }
 
-.header-container {
+.home-intro__header-container {
   -webkit-transform: translateY(-30%);
   -ms-transform: translateY(-30%);
   transform: translateY(-30%);
@@ -24,7 +26,7 @@ video {
   top: 30%
 }
 
-.header-heading{
+.home-intro__header-inner-container{
   bottom: 0;
   color: $ochre;
   font-size: 12px;
@@ -37,7 +39,7 @@ video {
   z-index: 2;
 }
 
-.header-cta {
+.home-intro__header-cta {
   -webkit-animation: fadeInUp .5s ease 2.5s both;
   animation: fadeInUp .5s ease 2.5s both;
   display: block;
@@ -48,6 +50,7 @@ video {
   background-image: url(/assets/img/cta.svg)
 }
 
+//power-of-community section of homepage
 .p1 {
   position: relative;
 }
@@ -66,6 +69,7 @@ video {
   position: relative;
 }
 
+//humble-beginnings section of homepage
 #humble-beginning {
   background-color: $orange-red;
   overflow:hidden;
@@ -164,6 +168,80 @@ video {
         transform: translatey(0px);
 }
 
+@media(max-width:1199px){
+
+  padding: 0 40px;
+
+  .container {
+    padding: 0;
+  }
+
+  .paracontent-a {
+    width: 50%;
+  }
+
+  .img-block-a {
+    display: none;
+  }
+
+  .img-block-b {
+    width: 50%;
+  }
+}
+
+@media(max-width:767px){
+		padding: 0 30px;
+		min-height: 310px;
+	}
+
+	.container {
+
+		width: 100%;
+		height: auto;
+		background: transparent;
+
+		.paracontent-a {
+			float: left;
+			margin-top: 12%;
+		}
+
+		.img-block-a {
+
+		}
+
+		.img-block-b {
+
+			position: relative;
+			float: left;
+			top: 0px;
+			left: 8%;
+			right: auto;
+
+			box-shadow: 0 0 38px rgba(0,0,0,0.13);
+			bottom: auto;
+			margin-top: 8%;
+		}
+
+		@media(max-width:767px){
+
+			width: 120%;
+
+			.paracontent-a {
+				width: 42%;
+				margin-bottom: 30px;
+			}
+
+			.img-block-b {
+				float: right;
+				position: relative;
+				left: auto;
+				right: 0%;
+				width: 58%;
+			}
+		}
+	}
+
+//Home page section--free-courses begings here
 .section--free-courses {
  background-color: $bone-white;
  min-height: 600px;
@@ -220,6 +298,7 @@ video {
 
 }
 
+//Homepage section--points-of-interest begins here
 .section--points-of-interest {
  background-color: $bone-white;
  min-height: 600px;
