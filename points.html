@@ -2,9 +2,9 @@
 layout: masonry
 title: 50 Points of Interest
 ---
-
+{% assign pointnumber=0 %}
 {% for points in site.data.points %}
   <li>
-    <a href="#"><img src="/assets/img/dummy.png" alt="{{ points.Title }}"><h3>{{ points.Title }}</h3></a>
+    <a href="#"><img src="/assets/img/dummy.png" alt="{{ points.Title }}"><h3>{% assign pointnumber=pointnumber| plus:1 %}{{ pointnumber }}. {{ points.Title }}</h3></a>
   </li>
 {% endfor %}

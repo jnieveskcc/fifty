@@ -24,10 +24,16 @@
 		</script>
 		{% endif %}
   </head>
-	{% if page.url == '/events/' %}
-		<body class="events--page">
-	{% elsif page.url == '/courses/' %}
-		<body class="courses--page">
+	{% if page.url contains '/events/' %}
+		<body class="events__page">
+	{% elsif page.url contains '/courses/' %}
+		<body class="courses__page">
+	{% elsif page.url contains '/points/' %}
+		<body class="points__page">
+	{% elsif page.url == '/timeline/' %}
+		<body class="timeline__page">
+	{% elsif page.url == '/contact/' %}
+		<body class="contact__page">
 	{% else %}
   <body>
 		{% endif %}

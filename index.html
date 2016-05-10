@@ -61,16 +61,16 @@ title: Home
         <a href="/timeline/" class="button home-cta">Timeline</a>
       </div>
     </div>
-    <div id="home-events" class="col-33 flex flex--center">
+    <div id="home-events" class="home-events col-33 flex flex--center">
       <div class="col-1">
-        <h2 class="home-lead">Events</h2>
+        <h2 class="home-events__lead">Events</h2>
         <ul>
-          {% for event in site.data.events | limit:4 %}
+          {% for event in site.data.events | limit:3 %}
             <li>
-              <a href="{{ event.url }}">{{ event.Title }}</a><br />
-              {{ event.Location }}<br />
-              {{ event.Date/Time }}<br />
-              {{ event.Description | truncate:100 }}
+              <a href="/events/{{ event.Pageurl }}" class="home-events__item big">{{ event.Title }}</a><br />
+              <span class="home-events__location">{{ event.Location }}</span><br />
+              <span class="home-events__date-time">{{ event.Date-Time }}</span><br />
+              <span class="home-events__description">{{ event.Description | truncate:100 }}</span>
             </li>
           {% endfor %}
         </ul>

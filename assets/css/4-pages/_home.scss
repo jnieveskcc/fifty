@@ -362,14 +362,6 @@ footer {
   height: 200px;
 }
 
-#home-events {
-  background-color: $navy-blue;
-}
-
-#home-events h2 {
-  color: $bone-white;
-}
-
 #home-timeline {
   background-color: $bone-white;
   background-image: url("/assets/img/50.png");
@@ -379,6 +371,29 @@ footer {
 
 #home-timeline h2 {
   color: $black;
+}
+
+.home-events {
+  background-color: $navy-blue;
+}
+
+.home-events__lead {
+  color: $bone-white;
+  @extend .home-lead;
+}
+
+.home-events ul {
+  list-style: none;
+}
+
+.home-events__item {
+ color: $bone-white;
+}
+
+.home-events__location,
+.home-events__date-time,
+.home-events__description {
+  color: $text-secondary-colour;
 }
 
 .contact {

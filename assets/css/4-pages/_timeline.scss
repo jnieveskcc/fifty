@@ -1,9 +1,13 @@
+.timeline__page {
+  background-color: $ochre;
+}
+
 #timeline {
   background-color: $bone-white;
 }
 
 #timeline a {
-  color: #ffffcc;
+  color: $rust-orange;
   text-decoration: none;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -14,7 +18,7 @@
 
 #timeline a.selected,
 #timeline a:hover {
-  color: #ffcc00;
+  color: $orange-red;
 }
 
 .sociales {
@@ -99,7 +103,7 @@
 }
 
 #issues li h1 {
-  color: #ebca6a;
+  color: $orange-red;
   font-size: 48px;
   text-align: center;
   text-shadow: #000 1px 1px 2px;
