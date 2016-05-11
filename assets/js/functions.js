@@ -42,7 +42,7 @@ function humbleBeginningScroll() {
     var wScroll = $window.scrollTop();
 
     if ($('section.humble-beginning').offset().top - $window.height() / 1.2 < wScroll) {
-                $('.container div').addClass('is-visible');
+                $('.humble-beginning__container div').addClass('is-visible');
     }
 }
 

@@ -94,7 +94,9 @@
   -webkit-transform: translateY(-100%);
       -ms-transform: translateY(-100%);
           transform: translateY(-100%);
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+  z-index:100;
+  }
   .content-wrap .mobile-nav a {
     color: #999; }
     .content-wrap .mobile-nav a:hover, .content-wrap .mobile-nav a:active {
@@ -128,13 +130,14 @@
     .content-wrap header .email-link {
       display: none; }
     .content-wrap header .logo {
-      height: 45px; }
+      background-image: url(/assets/img/kcc50logo_wide.svg);
+      height: 75px; }
     .content-wrap header .mobile-nav-toggle {
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex; }
   .content-wrap .mobile-nav.is-open {
     display: block;
-    -webkit-transform: translateY(0%);
-        -ms-transform: translateY(0%);
-            transform: translateY(0%); } }
+    -webkit-transform: translateY(35%);
+        -ms-transform: translateY(35%);
+            transform: translateY(35%); } }

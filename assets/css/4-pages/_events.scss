@@ -1,5 +1,7 @@
 .events__page {
   background-color: $ochre;
+  background-image: url('/assets/img/goldshine.jpg');
+  background-size: cover;
 }
 
 .events__item-group {
@@ -18,7 +20,7 @@
 }
 
 .events__title{
-  color: $orange-red;
+  color: $primary-red;
 }
 
 .events__cta-icon {
