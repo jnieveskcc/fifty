@@ -1,0 +1,33 @@
+.course-card {
+  background-color: $white;
+  padding: 30px;
+  margin-left: 35px;
+  margin-top: 35px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    width: 861px;
+    display: flex;
+}
+
+.course-card__title {
+  color: $primary-red;
+}
+
+.course-card__cta {
+  background-color: $primary-blue;
+  color: $white;
+  font-weight: bold;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.course-card__photo {
+  display: flex;
+  justify-content:flex-end;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+      border: 1px solid $grey-3;
+
+}
+
+.course-card_inner-col-b {
+  display: block;
+  margin-right: 30px;
+}

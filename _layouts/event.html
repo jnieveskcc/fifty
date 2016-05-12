@@ -1,13 +1,12 @@
 ---
 layout: default
 ---
-
-	<section class="event__item">
-		<h1>{{page.title}}</h1>
+	<a class="breadcrumb" href="/events/">&lt; Back to Events</a>
+	<section class="event-card__item">
+		<h1 class="large event-card__title">{{page.title}}</h1>
 		<p>
 			<b>Location:</b> {{page.location}}<br/>
 			<b>Date/Time:</b> {{page.date-time}}
 		</p>
 		<p>{{page.description}}</p>
-		<a class="button" href="http://www.kcc.edu">Sign up now</a>
 	</section>

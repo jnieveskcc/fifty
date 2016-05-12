@@ -16,11 +16,14 @@
 // 3 - MODULES
 @import '3-modules/layout';
 @import '3-modules/header';
+@import '3-modules/breadcrumb';
 
 // 4 - PAGES
 @import '4-pages/home';
 @import '4-pages/courses';
+@import '4-pages/course-card';
 @import '4-pages/timeline';
 @import '4-pages/contact';
 @import '4-pages/events';
+@import '4-pages/event';
 @import '4-pages/points';
