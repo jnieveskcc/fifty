@@ -54,7 +54,11 @@
 				</ul>
 			</div>
 	    <header>
-	      <div class="header-position">
+				{% if page.url == '/' || page.url == '/index.html' %}
+	      <div class="home-header-position">
+				{% else %}
+				<div class="header-position">
+				{% endif %}
 	        <h1 class="logo">KCC 50 Site</h1>
 	        <nav class="site-nav">
 	          <ul>
