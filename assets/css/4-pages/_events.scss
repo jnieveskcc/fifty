@@ -6,6 +6,8 @@
 
 .events__item-group {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .events__lead {
@@ -38,3 +40,9 @@ border-radius: 50%;}
 
 .events__cta-icon:hover {
   box-shadow: 0 5px 14px rgba(0, 0, 0, 0.4); }
+
+@media(max-width:767px){
+  .events__item.col-2 {
+    width: 70%;
+  }
+}

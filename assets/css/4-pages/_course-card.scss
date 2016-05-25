@@ -31,3 +31,12 @@
   display: block;
   margin-right: 30px;
 }
+
+@media(max-width:767px){
+  .course-card {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+    flex-direction: column;
+  }
+}

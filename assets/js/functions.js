@@ -35,7 +35,7 @@ var $body,
 function moduleAnimate(){
   var tl = new TimelineLite();
   tl.staggerFrom('.p1', 2, {opacity:0, delay:0.4}, 0.3)
-  .from('#text3', 1, {right:100, autoAlpha:0}, '-=3');
+  .from('.power-of-community__text', 1, {right:100, autoAlpha:0}, '-=3');
 }
 
 function humbleBeginningScroll() {
