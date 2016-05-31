@@ -1,11 +1,11 @@
 .course-card {
   background-color: $white;
-  padding: 30px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
   margin-left: 35px;
   margin-top: 35px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-    width: 861px;
-    display: flex;
+  padding: 30px;
+  width: 861px;
 }
 
 .course-card__title {
@@ -14,17 +14,16 @@
 
 .course-card__cta {
   background-color: $primary-blue;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   color: $white;
   font-weight: bold;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 .course-card__photo {
+  border: 1px solid $grey-3;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content:flex-end;
-      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-      border: 1px solid $grey-3;
-
 }
 
 .course-card_inner-col-b {
@@ -34,9 +33,9 @@
 
 @media(max-width:767px){
   .course-card {
+    flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
     width: auto;
-    flex-direction: column;
   }
 }
