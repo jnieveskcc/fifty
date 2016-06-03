@@ -1,0 +1,74 @@
+.decades__page {
+  background-color: $ochre;
+}
+.decade {
+  background-color: $primary-red;
+  padding:20px 0 20px 40px;
+}
+.decade-year {
+  color: $white;
+  margin: 0;
+}
+.timeline-event__item {
+  display: flex;
+}
+.timeline-event__item-info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.timeline-event__date {
+  color: $primary-blue;
+  font-size: 43px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.timeline-event__title {
+  color: $primary-red;
+  font-size: 31px;
+  margin-top: 0;
+  margin-bottom: 0.1em;
+}
+.timeline-event__description {
+  font-size: 18px;
+  color: $primary-blue;
+  font-weight: 400;
+}
+dl#simple-gallery {
+  position: relative;
+  font-size: 0;
+  padding: 3rem;
+  padding-bottom: 8rem;
+}
+dl#simple-gallery dt{
+  width: 12.5%;
+  min-width: 50px;
+  cursor: pointer;
+}
+dl#simple-gallery dt img {
+  width: 100%;
+  height: auto;
+}
+dl#simple-gallery dt:hover+dd, dl#simple-gallery dt:focus+dd {
+  opacity:1;
+}
+dl#simple-gallery dd {
+  position: absolute;
+  top: 3rem;
+  left: 22%;
+  opacity: 0;
+  transition: .7s opacity;
+  text-align: center;
+  font-size: 1.4rem;
+  font-style: italic;
+  color: $white;
+  padding-left: 0;
+  width: 40%;
+}
+dl#simple-gallery dd img{
+  width: 100%;
+  height: auto;
+  box-shadow:0 0 8px rgba(0,0,0,0.3);
+  display:block;
+  margin-bottom: 1rem;
+}

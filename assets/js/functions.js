@@ -38,30 +38,10 @@ function moduleAnimate(){
   .from('.power-of-community__text', 1, {right:100, autoAlpha:0}, '-=3');
 }
 
-function humbleBeginningScroll() {
-    var wScroll = $window.scrollTop();
-
-    if ($('section.humble-beginning').offset().top - $window.height() / 1.2 < wScroll) {
-                $('.humble-beginning__container div').addClass('is-visible');
-    }
-}
-
 function fiftyRowScroll() {
     var wScroll = $window.scrollTop();
 
     if ($('section.row.section--free-courses').offset().top - $window.height() / 1.2 < wScroll) {
-        $('.col-50').each(function(i) {
-            setTimeout(function() {
-                $('.col-50').eq(i).addClass('is-visible');
-            }, 100 * i);
-        });
-    }
-}
-
-function pointsOfInterestScroll() {
-    var wScroll = $window.scrollTop();
-
-    if ($('section.row.section--points-of-interest').offset().top - $window.height() / 1.2 < wScroll) {
         $('.col-50').each(function(i) {
             setTimeout(function() {
                 $('.col-50').eq(i).addClass('is-visible');
@@ -87,9 +67,7 @@ $(document).ready(function() {
   moduleAnimate();
 
   $window.scroll(function() {
-      humbleBeginningScroll();
       fiftyRowScroll();
-      pointsOfInterestScroll();
   });
 
   bindings();

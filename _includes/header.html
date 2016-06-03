@@ -32,6 +32,10 @@
 		<body class="points__page">
 	{% elsif page.url == '/timeline/' %}
 		<body class="timeline__page">
+	{% elsif page.url contains '/19' %}
+		<body class="decades__page">
+	{% elsif page.url contains '/20' %}
+		<body class="decades__page">
 	{% elsif page.url == '/contact/' %}
 		<body class="contact__page">
 	{% else %}
@@ -43,13 +47,27 @@
 					{% if page.url == '/' %}
 					<li><a href="#home-intro">Home</a></li>
 					<li><a href="#free-courses">50 Free courses</a></li>
-					<li><a href="#points_of_interest">50 Points of interest</a></li>
+					<!-- <li><a href="#points_of_interest">50 Points of interest</a></li> -->
 					<li><a href="#home-timeline">Timeline</a></li>
 					<li><a href="#home-events">Events</a></li>
 					<li><a href="#contact">Contact</a></li>
 					{% endif %}
 					{% if page.url != '/' %}
 					<li><a href="/">&lt; home</a></li>
+					{% endif %}
+					{% if page.url contains '/19' %}
+					<li><a href="/1960s/">1960s</a></li>
+					<li><a href="/1970s/">1970s</a></li>
+					<li><a href="/1980s/">1980s</a></li>
+					<li><a href="/1990s/">1990s</a></li>
+					<li><a href="/2000s/">2000s</a></li>
+					{% endif %}
+					{% if page.url contains '/20' %}
+					<li><a href="/1960s/">1960s</a></li>
+					<li><a href="/1970s/">1970s</a></li>
+					<li><a href="/1980s/">1980s</a></li>
+					<li><a href="/1990s/">1990s</a></li>
+					<li><a href="/2000s/">2000s</a></li>
 					{% endif %}
 				</ul>
 			</div>
@@ -65,13 +83,27 @@
 							{% if page.url == '/' %}
 	            <li><a href="#home-intro">Home</a></li>
 	            <li><a href="#free-courses">50 Free courses</a></li>
-							<li><a href="#points_of_interest">50 Points of interest</a></li>
-							<li><a href="/timeline/">Timeline</a></li>
+							<!-- <li><a href="#points_of_interest">50 Points of interest</a></li> -->
+							<li><a href="#home-timeline">Timeline</a></li>
 							<li><a href="#home-events">Events</a></li>
 	            <li><a href="#contact">Contact</a></li>
 							{% endif %}
 							{% if page.url != '/' %}
 							<li><a href="/">&lt; home</a></li>
+							{% endif %}
+							{% if page.url contains '/19' %}
+							<li><a href="/1960s/">1960s</a></li>
+							<li><a href="/1970s/">1970s</a></li>
+							<li><a href="/1980s/">1980s</a></li>
+							<li><a href="/1990s/">1990s</a></li>
+							<li><a href="/2000s/">2000s</a></li>
+							{% endif %}
+							{% if page.url contains '/20' %}
+							<li><a href="/1960s/">1960s</a></li>
+							<li><a href="/1970s/">1970s</a></li>
+							<li><a href="/1980s/">1980s</a></li>
+							<li><a href="/1990s/">1990s</a></li>
+							<li><a href="/2000s/">2000s</a></li>
 							{% endif %}
 	          </ul>
 	        </nav>

@@ -110,10 +110,22 @@
 
 .power-of-community {
   background-color: $ochre;
+  background-image: url('/assets/img/goldshine.jpg');
+  background-size: cover;
   position: relative;
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+.power-of-community .logo {
+  background-image: url(/assets/img/kcc50logo.svg);
+  background-size: 250px;
+  background-repeat: no-repeat;
+  height: 350px;
+  margin: 0 auto;
+  text-indent: -9999px;
+  width: 300px;
+ }
 
 //humble-beginnings section of homepage
 .humble-beginning {
@@ -438,13 +450,13 @@ footer {
 
 #home-timeline {
   background-color: $bone-white;
-  background-image: url("/assets/img/50.png");
+  background-image: url("/assets/img/img344.jpg");
   background-position: center;
   height: 600px;
 }
 
 #home-timeline h2 {
-  color: $primary-blue;
+  color: $white;
 }
 
 .home-events {
