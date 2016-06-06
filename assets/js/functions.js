@@ -50,6 +50,18 @@ function fiftyRowScroll() {
     }
 }
 
+function courseGalleryHome () {
+  $('.imgWrap').hover(function () {
+    // $(this).css('width', '36%');
+     $(this).addClass('current');
+    //$(this).siblings().css('width', '16%');
+     $(this).siblings().addClass('notCurrent');
+  }, function () {
+    //$('.imgWrap').css('width', '10%');
+    $('.imgWrap').siblings().removeClass('notCurrent');
+    $('.imgWrap').removeClass('current');
+  });
+}
 
 function bindings () {
     // Toggle mobile navigation (mobileNav)
@@ -70,7 +82,10 @@ $(document).ready(function() {
       fiftyRowScroll();
   });
 
+  courseGalleryHome();
   bindings();
+
+
 });
 
 })(jQuery);

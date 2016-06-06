@@ -306,7 +306,6 @@
 //Home page section--free-courses begings here
 .section--free-courses {
  background-color: $bone-white;
- min-height: 600px;
  padding: 0 0;
  -webkit-flex: 1;
  -ms-flex: 1;
@@ -413,6 +412,7 @@ transition: all 300ms ease-in-out;
 section.row.section--free-courses,
 section.row.section--points-of-interest,
 .get-involved,
+.contact,
 footer {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -488,6 +488,29 @@ footer {
 
 .contact {
   background-color: $light-blue-grey;
+}
+
+.contact__image {
+  background-color: $bone-white;
+  background-position: center;
+  background-size: cover;
+height: 600px;
+}
+
+.contact__andy {
+  background-image: url('/assets/img/andy.jpg');
+}
+
+.contact__jesse {
+  background-image: url('/assets/img/jesse.jpg');
+}
+
+.contact__kayla {
+  background-image: url('/assets/img/kayla.jpg');
+}
+
+.contact__kristin {
+  background-image: url('/assets/img/kristin.jpg');
 }
 
 .contact__home-lead{
@@ -572,3 +595,64 @@ section {
       width: auto; }
   .push-right {
     margin-left: 0; } }
+
+    .course-gallery{
+      background: $primary-blue;
+      height: 400px;
+      width: auto;
+      display: block;
+    }
+
+    .home-course-gallery {
+      overflow: hidden;
+      height: 400px;
+      width: auto;
+      display: block;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      background: $primary-blue;
+    }
+
+    .imgWrap {
+      float: left;
+      width: 15%;
+      height: 100%;
+      overflow: hidden;
+      position: relative;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+      opacity: 0.8;
+      -moz-transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      -o-transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      -webkit-transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+    .imgWrap:last-child {
+      float: left;
+    }
+
+    .current {
+      width: 36%;
+      -moz-transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      -o-transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      -webkit-transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+      opacity: 1;
+      cursor: pointer;
+    }
+
+    .notCurrent {
+      width: 10%;
+      -moz-transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      -o-transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      -webkit-transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
