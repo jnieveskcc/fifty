@@ -1,0 +1,31 @@
+//power-of-community section of homepage
+.p1 {
+  position: relative;
+}
+
+.power-of-community__text {
+  bottom: 0;
+  color: $primary-blue;
+  position:relative;
+  text-align: center;
+  z-index: 2;
+}
+
+.power-of-community {
+  background-color: $ochre;
+  background-image: url('/assets/img/goldshine.jpg');
+  background-size: cover;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.power-of-community .logo {
+  background-image: url(/assets/img/kcc50logo.svg);
+  background-size: 250px;
+  background-repeat: no-repeat;
+  height: 350px;
+  margin: 0 auto;
+  text-indent: -9999px;
+  width: 300px;
+ }

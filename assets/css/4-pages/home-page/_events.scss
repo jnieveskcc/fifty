@@ -1,0 +1,26 @@
+.home-events {
+  background-color: $navy-blue;
+}
+
+.home-events__lead {
+  color: $text-secondary-colour;
+  @extend .home-lead;
+}
+
+.home-events__item-group {
+  list-style: none;
+}
+
+.home-events__item {
+  margin-bottom: 1.5em;
+}
+
+.home-events__title {
+ color: $text-secondary-colour;
+}
+
+.home-events__location,
+.home-events__date-time,
+.home-events__description {
+  color: $text-secondary-colour;
+}
