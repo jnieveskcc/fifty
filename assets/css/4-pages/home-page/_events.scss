@@ -1,5 +1,7 @@
 .home-events {
-  background-color: $navy-blue;
+  background-color: $bone-white;
+  background-image: url('/assets/img/img262.jpg');
+  background-position: center;
 }
 
 .home-events__lead {
@@ -9,10 +11,14 @@
 
 .home-events__item-group {
   list-style: none;
+  display: flex;
+   justify-content: flex-start;
+   flex-direction: column;
 }
 
 .home-events__item {
   margin-bottom: 1.5em;
+  width: 300px;
 }
 
 .home-events__title {
