@@ -17,6 +17,7 @@
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   color: $white;
   font-weight: bold;
+  margin-bottom: 30px;
 }
 
 .course-card__photo {
@@ -24,6 +25,7 @@
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content:flex-end;
+  margin-top: 2.0em;
 }
 
 .course-card_inner-col-b {
@@ -37,5 +39,9 @@
     margin-left: 20px;
     margin-right: 20px;
     width: auto;
+  }
+
+  .course-card__photo {
+    margin-top: 0;
   }
 }
