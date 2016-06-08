@@ -2,6 +2,7 @@
   background-color: $bone-white;
   background-image: url('/assets/img/img262.jpg');
   background-position: center;
+  background-size: cover;
 }
 
 .home-events__lead {
@@ -11,6 +12,8 @@
 
 .home-events__item-group {
   list-style: none;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
    justify-content: flex-start;
    flex-direction: column;

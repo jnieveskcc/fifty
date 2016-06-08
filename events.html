@@ -8,8 +8,8 @@ title: Events
   {% for event in site.data.events %}
     <li class="events__item col-2">
       <a href="/events/{{ event.Pageurl }}" class="events__title bigger">{{ event.Title }}</a><br />
-      <span class="events__location"><strong>Location:</strong> {{ event.Location }}</span><br />
-      <span class="events__date-time"><strong>Date/Time:</strong> {{ event.Date-Time }}</span><br /><a href="/events/{{ event.Pageurl }}" class="events__item-cta"><strong>More event info </strong><span class="events__cta-icon">&gt;</span></a>
+      <span class="events__location"><b>Location:</b> {{ event.Location }}</span><br />
+      <span class="events__date-time"><b>Date/Time:</b> {{ event.Date-Time }}</span><br /><a href="/events/{{ event.Pageurl }}" class="events__item-cta"><b>More event info </b><span class="events__cta-icon">&gt;</span></a>
     </li>
   {% endfor %}
 </ul>

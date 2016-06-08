@@ -17,12 +17,27 @@
 
 .events__item {
   background-color: $white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
   margin: 20px auto;
 }
 
 .events__title{
   color: $primary-red;
+}
+
+.events__location {
+  font-weight: 400;
+}
+.events__location b{
+  font-size: 18px;
+}
+
+.events__date-time {
+  font-weight: 400;
+}
+.events__date-time b{
+  font-size: 18px;
 }
 
 .events__cta-icon {

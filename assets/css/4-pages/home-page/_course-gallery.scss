@@ -5,9 +5,6 @@
   width: auto;
 }
 
-.home-course-inner {
-}
-
 .home-course-gallery {
   overflow: hidden;
   height: 400px;
@@ -64,4 +61,10 @@
 .card--headline {
   color: $text-secondary-colour;
   text-align: center;
+}
+
+@media(max-width:767px) {
+  .home-course-inner {
+    display: none;
+  }
 }

@@ -1,6 +1,8 @@
 .course-card {
   background-color: $white;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 35px;
   margin-top: 35px;
@@ -23,8 +25,12 @@
 .course-card__photo {
   border: 1px solid $grey-3;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content:flex-end;
+  -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
   margin-top: 2.0em;
 }
 
@@ -33,8 +39,17 @@
   margin-right: 30px;
 }
 
+.course-card_inner-col-b p{
+  font-weight: 400;
+}
+.course-card_inner-col-b b{
+  font-size: 18px;
+}
+
 @media(max-width:767px){
   .course-card {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;

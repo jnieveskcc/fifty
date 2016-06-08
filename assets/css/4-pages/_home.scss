@@ -39,29 +39,6 @@
   background-color: $light-blue-grey;
 }
 
-.contact__image {
-  background-color: $bone-white;
-  background-position: center;
-  background-size: cover;
-height: 600px;
-}
-
-.contact__andy {
-  background-image: url('/assets/img/andy.jpg');
-}
-
-.contact__jesse {
-  background-image: url('/assets/img/jesse.jpg');
-}
-
-.contact__kayla {
-  background-image: url('/assets/img/kayla.jpg');
-}
-
-.contact__kristin {
-  background-image: url('/assets/img/kristin.jpg');
-}
-
 .contact__home-lead{
   color: $primary-blue;
   @extend .home-lead;
@@ -101,7 +78,9 @@ section {
   .get-involved,
   .contact
   {
-    flex-direction: column;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 0;
   }
 }
@@ -153,6 +132,9 @@ section {
 @media (max-width: 775px) {
   .home-sections .flex {
     display: block; }
+  .home-sections .home-course-inner {
+    display: none;
+  }
   .col-1 {
     width: 100%; }
   .col-50 {
