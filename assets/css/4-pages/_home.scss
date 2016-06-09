@@ -40,7 +40,7 @@
 }
 
 .contact__home-lead{
-  color: $primary-blue;
+  color: $primary-red;
   @extend .home-lead;
 }
 .content-wrap {
@@ -130,8 +130,8 @@ section {
 }
 
 @media (max-width: 775px) {
-  .home-sections .flex {
-    display: block; }
+  //.home-sections .flex {
+    //display: block; }
   .home-sections .home-course-inner {
     display: none;
   }

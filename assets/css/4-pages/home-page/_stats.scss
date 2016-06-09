@@ -22,13 +22,20 @@
 
 .power-of-community .logo {
   background-image: url(/assets/img/kcc50logo.svg);
-  background-size: 250px;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 350px;
+  height: 270px;
   margin: 0 auto;
   text-indent: -9999px;
-  width: 300px;
- }
+  width: 191px;
+  }
+
+.power-of-community__inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
 
 @media(max-width:767px) {
   .power-of-community {

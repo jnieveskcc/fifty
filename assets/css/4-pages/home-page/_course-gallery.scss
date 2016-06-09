@@ -15,6 +15,18 @@
   background: $primary-blue;
 }
 
+.home-course__inner-b {
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.home-course__gallery-button {
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 320px;
+}
+
 .imgWrap {
   float: left;
   width: 16.65%;
@@ -65,6 +77,14 @@
 }
 
 @media(max-width:767px) {
+
+  .course-gallery{
+    background: $primary-red;
+    width: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
   .home-course-inner {
     display: none;
   }
