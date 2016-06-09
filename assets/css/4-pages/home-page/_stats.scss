@@ -29,3 +29,9 @@
   text-indent: -9999px;
   width: 300px;
  }
+
+@media(max-width:767px) {
+  .power-of-community {
+    display: none;
+  }
+}
