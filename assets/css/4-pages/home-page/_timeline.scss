@@ -80,7 +80,6 @@
 @media(max-width:768px) {
 
   .home-timeline {
-    background-position: -384px -276px;
     height: 679px;
   }
 
@@ -97,7 +96,7 @@
     height: 77px;
     text-indent: 0;
     text-align: center;
-    background-color: $primary-blue;
+    background-color: rgba(14,60,99,0.9);;
     color: $ochre;
     font-size: 36px;
     font-weight: 400;

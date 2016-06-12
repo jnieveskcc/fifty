@@ -19,6 +19,9 @@
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: column;
+      -webkit-align-items: center;
+         -ms-flex-align: center;
+         align-items: center;
 }
 
 .home-course__gallery-button {

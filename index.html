@@ -60,32 +60,31 @@ title: Home
         <a href="/contact/" class="button home-cta">Contact us now</a>
     </div>
   </section>
-    <section id="home-events" class="home-events">
-      <h2 class="home-events__lead">Events</h2>
-      <div class="flex col-50">
-        <ul class="home-events__item-group">
-          {% for event in site.data.events | limit:2 %}
-            <li class="home-events__item">
-              <a href="/events/{{ event.Pageurl }}" class="home-events__title big">{{ event.Title }}</a><br />
-              <span class="home-events__location">{{ event.Location }}</span><br />
-              <span class="home-events__date-time">{{ event.Date-Time }}</span>
-            </li>
-          {% endfor %}
-        </ul>
-        <ul class="home-events__item-group">
-          {% for event in site.data.events | limit:2 | offset:2 %}
-            <li class="home-events__item">
-              <a href="/events/{{ event.Pageurl }}" class="home-events__title big">{{ event.Title }}</a><br />
-              <span class="home-events__location">{{ event.Location }}</span><br />
-              <span class="home-events__date-time">{{ event.Date-Time }}</span>
-            </li>
-          {% endfor %}
-        </ul>
-
+  <section id="home-events" class="home-events">
+    <h2 class="home-events__lead">Events</h2>
+    <div class="home-events__inner flex flex--center">
+      <ul class="home-events__item-group">
+        {% for event in site.data.events | limit:2 %}
+          <li class="home-events__item">
+            <a href="/events/{{ event.Pageurl }}" class="home-events__title big">{{ event.Title }}</a><br />
+            <span class="home-events__location">{{ event.Location }}</span><br />
+            <span class="home-events__date-time">{{ event.Date-Time }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+      <ul class="home-events__item-group">
+        {% for event in site.data.events | limit:2 | offset:2 %}
+          <li class="home-events__item">
+            <a href="/events/{{ event.Pageurl }}" class="home-events__title big">{{ event.Title }}</a><br />
+            <span class="home-events__location">{{ event.Location }}</span><br />
+            <span class="home-events__date-time">{{ event.Date-Time }}</span>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
-    <div class="flex col-50" style="justify-content:flex-end;">
+    <div class="flex flex--center">
       <div class="col-1">
-              <a href="/events/" class="button home-cta">Full event list</a>
-              </div>
+        <a href="/events/" class="button home-cta">Full event list</a>
+      </div>
     </div>
-    </section>
+  </section>
