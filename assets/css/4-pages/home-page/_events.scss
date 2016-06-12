@@ -15,8 +15,12 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-   justify-content: flex-start;
-   flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+   -webkit-flex-direction: column;
+-ms-flex-direction: column;
+flex-direction: column;
 }
 
 .home-events__item {
@@ -36,7 +40,11 @@
 
 @media(max-width:768px) {
   .home-events__inner {
-    flex-direction: column;
-    align-items: center;
+    -webkit-flex-direction: column;
+-ms-flex-direction: column;
+flex-direction: column;
+-webkit-align-items: center;
+   -ms-flex-align: center;
+   align-items: center;
   }
 }

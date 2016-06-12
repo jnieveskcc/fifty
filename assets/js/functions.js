@@ -38,18 +38,6 @@ function moduleAnimate(){
   .from('.power-of-community__text', 1, {right:100, autoAlpha:0}, '-=3');
 }
 
-function fiftyRowScroll() {
-    var wScroll = $window.scrollTop();
-
-    if ($('section.row.section--free-courses').offset().top - $window.height() / 1.2 < wScroll) {
-        $('.col-50').each(function(i) {
-            setTimeout(function() {
-                $('.col-50').eq(i).addClass('is-visible');
-            }, 100 * i);
-        });
-    }
-}
-
 function courseGalleryHome () {
   $('.imgWrap').hover(function () {
     // $(this).css('width', '36%');
@@ -77,10 +65,6 @@ $(document).ready(function() {
   $window = $(window);
 
   moduleAnimate();
-
-  $window.scroll(function() {
-      fiftyRowScroll();
-  });
 
   courseGalleryHome();
   bindings();

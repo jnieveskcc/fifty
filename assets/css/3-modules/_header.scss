@@ -1,7 +1,8 @@
 .content-wrap header {
   width: 135px;
   background: white;
-  padding: 30px 0; }
+  padding: 30px 0;
+}
   .content-wrap header .home-header-position {
     position: fixed;
     top: 30px;
@@ -16,7 +17,8 @@
             flex-direction: column;
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
-            justify-content: space-between; }
+            justify-content: space-between;
+          flex: 2;}
   .content-wrap header .header-position {
     position: fixed;
     top: 30px;
@@ -31,7 +33,16 @@
             flex-direction: column;
     -webkit-justify-content: flex-start;
         -ms-flex-pack: start;
-            justify-content: flex-start; }
+            justify-content: flex-start;
+          }
+
+  @media(max-width:768px) {
+      .content-wrap header .header-position {
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: start;
+                justify-content: space-between;
+      }
+  }
   .content-wrap header .logo {
     overflow: hidden;
     text-indent: 101%;
