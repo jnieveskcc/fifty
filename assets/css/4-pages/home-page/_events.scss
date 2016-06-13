@@ -39,6 +39,10 @@ flex-direction: column;
 }
 
 @media(max-width:768px) {
+  .home-events {
+    padding-bottom: 0;
+    padding-top: 1px;
+  }
   .home-events__inner {
     -webkit-flex-direction: column;
 -ms-flex-direction: column;

@@ -52,8 +52,9 @@
 
 @media(max-width:767px){
   .home-intro {
-    height: 320px;
-    width: auto;
+    height: 100%;
+    width: 100%;
+    padding-bottom:56.25%;
   }
 
   .home-intro__header-container {
@@ -62,6 +63,10 @@
     transform: translateY(-30%);
     position: relative;
     top: 30px
+  }
+
+  .home-intro__video {
+    width: 100%;
   }
 
   .home-intro__header-inner-container{
