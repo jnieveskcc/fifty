@@ -89,13 +89,6 @@
   }
 
   .home-intro__header-cta {
-    -webkit-animation: fadeInUp .5s ease 2.5s both;
-    animation: fadeInUp .5s ease 2.5s both;
-    display: block;
-    width: 51px;
-    height: 52px;
-    margin-right: auto;
-    margin-left: auto;
-    background-image: url(/assets/img/cta.svg)
+    display: none;
   }
 }
