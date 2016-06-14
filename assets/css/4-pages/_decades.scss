@@ -3,7 +3,7 @@
 }
 .decade {
   background-color: $primary-red;
-  padding:20px 0 20px 40px;
+  padding: 20px 0 20px 40px;
 }
 .decade-year {
   color: $white;
@@ -22,8 +22,8 @@
 .timeline-event__date {
   color: $primary-blue;
   font-size: 43px;
-  margin-top: 0;
   margin-bottom: 5px;
+  margin-top: 0;
 }
 .timeline-event__title {
   color: $primary-red;
@@ -32,8 +32,8 @@
   margin-bottom: 0.1em;
 }
 .timeline-event__description {
-  font-size: 18px;
   color: $primary-blue;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -44,11 +44,20 @@
   margin-left: 10px;
 }
 
-@media(max-width:767px){
+@media(max-width:767px) {
+
+  .decade {
+    padding-left: 20px;
+  }
+
+  .timeline-event__group {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .timeline-event__item {
     flex-direction: column;
     margin-left: 0;
-    margin-right: 20px;
+    margin-right: 0;
     width: auto;
   }
 
@@ -57,6 +66,7 @@
   }
 
   .timeline-event__photo {
-    margin-left: 10px;
+    margin-left: 0;
+    max-width: 100%;
   }
 }
