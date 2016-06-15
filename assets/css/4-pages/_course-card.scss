@@ -4,6 +4,9 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   margin-left: 35px;
   margin-top: 35px;
   padding: 30px;
@@ -25,18 +28,16 @@
 .course-card__photo {
   border: 1px solid $grey-3;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: flex-end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
   margin-top: 2.0em;
+  display: block;
+  width: 300px;
+  height: 380px;
 }
 
 .course-card_inner-col-b {
   display: block;
   margin-right: 30px;
+  width: 475px;
 }
 
 .course-card_inner-col-b p{
@@ -56,7 +57,14 @@
     width: auto;
   }
 
+  .course-card_inner-col-b {
+    display: block;
+    width: auto;
+  }
+
   .course-card__photo {
     margin-top: 0;
+    width: 100%;
+    height: auto;
   }
 }

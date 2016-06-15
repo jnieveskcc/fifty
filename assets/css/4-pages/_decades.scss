@@ -55,7 +55,9 @@
     padding-right: 20px;
   }
   .timeline-event__item {
-    flex-direction: column;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
     margin-left: 0;
     margin-right: 0;
     width: auto;

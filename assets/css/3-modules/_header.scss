@@ -2,6 +2,8 @@
   width: 135px;
   background: white;
   padding: 30px 0;
+  min-height: 100vh;
+  min-width: 135px;
 }
   .content-wrap header .home-header-position {
     position: fixed;
@@ -39,7 +41,7 @@
   @media(max-width:768px) {
       .content-wrap header .header-position {
         -webkit-justify-content: space-between;
-            -ms-flex-pack: start;
+            -ms-flex-pack: justify;
                 justify-content: space-between;
       }
   }
@@ -146,8 +148,12 @@
 
 @media (max-width: 775px) {
   .content-wrap header {
+    height: auto;
     width: auto;
-    padding: 20px 0; }
+    padding: 20px 0;
+    min-height: 75px;
+    min-width: auto;
+  }
     .content-wrap header .header-position,
     .content-wrap header .home-header-position {
       width: auto;

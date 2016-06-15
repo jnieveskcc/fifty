@@ -3,15 +3,16 @@ layout: default
 ---
 	<a class="breadcrumb" href="/courses/">&lt; Back to Courses</a>
 	<section class="course-card">
-	<div class="course-card_inner-col-b">
-		<h1 class="large course-card__title">{{page.title}}</h1>
-		<p>
-			<b>Course No:</b> {{page.course-no}}<br/>
-			<b>Location:</b> {{page.location}}<br/>
-			<b>Date/Time:</b> {{page.date-time}}
-		</p>
-		<p>{{page.description}}</p>
-		<a class="course-card__cta button" href="https://connect.kcc.edu/wa/wa?TOKENIDX=3744693678&CONSTITUENCY=WBCE&type=P&pid=ST-WBSTS027A.SHOWALL.NEW">Sign up now</a>
-	</div>
-		<img class="course-card__photo" src="/assets/img/courses/{{page.photo}}" width="300" height="380" alt="{{page.title}} photo" />
+		<div class="course-card_inner-col-b">
+			<h1 class="large course-card__title">{{page.Title}}</h1>
+			<p>
+				<b>Course No:</b> {{page.Course-No}}<br/>
+				<b>Location:</b> {{page.Location}}<br/>
+				<b>Date/Time:</b> {{page.Date-Time}}<br/>
+				<b>Instructor:</b> {{page.Instructor}}
+			</p>
+			<p>{{page.Description}}</p>
+			<a class="course-card__cta button" href="https://connect.kcc.edu/wa/wa?TOKENIDX=3744693678&CONSTITUENCY=WBCE&type=P&pid=ST-WBSTS027A.SHOWALL.NEW">Sign up now</a>
+		</div>
+		<img class="course-card__photo" src="/assets/img/courses/{{page.Image}}" width="300" height="380" alt="{{page.Title}} photo" />
 	</section>
