@@ -4,6 +4,7 @@
   height: 720px;
   padding: 0;
   position: relative;
+  overflow: hidden;
 }
 
 .home-intro__video {
@@ -15,7 +16,7 @@
   top: 50%;
   transform: translate(-50%, -50%);
   width: auto;
-  z-index: -1;
+  //z-index: -1000; This was not workng and was locking down video in mobile
 }
 
 .home-intro__header-container {
@@ -39,6 +40,20 @@
   z-index: 2;
 }
 
+.home-intro__headline {
+  text-align: center;
+  text-transform: uppercase;
+  background-image: url('/assets/img/power-of-community-banner.svg');
+  background-repeat: no-repeat;
+    fill: $text-secondary-colour;
+  background-position: center;
+  background-size: 70%;
+  width: 100%;
+  height: 105px;
+  display: block;
+  text-indent: -9999px;
+}
+
 .home-intro__header-cta {
   -webkit-animation: fadeInUp .5s ease 2.5s both;
   animation: fadeInUp .5s ease 2.5s both;
@@ -54,7 +69,7 @@
   .home-intro {
     height: 100%;
     width: 100%;
-    padding-bottom:56.25%;
+    padding-bottom: 56.25%;
   }
 
   .home-intro__header-container {
