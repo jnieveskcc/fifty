@@ -159,3 +159,10 @@ section {
       width: auto; }
   .push-right {
     margin-left: 0; } }
+
+    @media (min-width:26.5625em) and (max-width:48em) {
+      .contact__home-lead {
+        height: 50px;
+        background-size: contain;
+      }
+    }

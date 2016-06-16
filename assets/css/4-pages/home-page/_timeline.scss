@@ -130,3 +130,10 @@
     background-image: none;
   }
 }
+
+@media (min-width:26.5625em) and (max-width:48em) {
+  .home-timeline__home-lead {
+    height: 50px;
+    background-size: contain;
+  }
+}

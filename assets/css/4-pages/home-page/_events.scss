@@ -88,3 +88,10 @@ flex-direction: column;
    align-items: center;
   }
 }
+
+@media (min-width:26.5625em) and (max-width:48em) {
+  .home-events__lead {
+    height: 50px;
+    background-size: contain;
+  }
+}
