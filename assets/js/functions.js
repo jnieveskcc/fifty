@@ -32,12 +32,6 @@ var $body,
           }, settings.duration);
       }
 
-function moduleAnimate(){
-  var tl = new TimelineLite();
-  tl.staggerFrom('.p1', 2, {opacity:0, delay:0.4}, 0.3)
-  .from('.power-of-community__text', 1, {right:100, autoAlpha:0}, '-=3');
-}
-
 function courseGalleryHome () {
   $('.imgWrap').hover(function () {
     // $(this).css('width', '36%');
@@ -64,12 +58,8 @@ $(document).ready(function() {
   $body = $('html, body');
   $window = $(window);
 
-  moduleAnimate();
-
   courseGalleryHome();
   bindings();
-
-
 });
 
 })(jQuery);
