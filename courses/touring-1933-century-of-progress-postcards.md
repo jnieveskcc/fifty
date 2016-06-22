@@ -1,8 +1,9 @@
 ---
 layout: course
-title: 
-location:
-date-time:
-description:
-photo: dummy.jpg
+Title: Touring the 1933 Century of Progress through Postcards
+Location: Room D123
+Date-Time: Aug. 17, 10 a.m.-noon
+Course-No: LLLI 9030.A13
+Description: Come tour the 1933 Chicago’s World Fair, “The Century of Progress,” through an antique postcard collection and memorabilia.
+Image: dummy.jpg
 ---

@@ -56,14 +56,14 @@
     ContentWriter:
 -
     Category: Wellness
-    Title: Sounds Meditation
+    Title: Sound Meditation
     Location: Iroquois Room
     Date-Time: Wednesday, Nov. 9, 6-8 p.m.
     Description: description coming
     Instructor: Gary Paruszkiewicz
     Course-No:
     Image: dummy
-    PageName-Url: sounds-meditation
+    PageName-Url: sound-meditation
     ContentWriter:
 -
     Category: Hobbie
@@ -77,7 +77,7 @@
     PageName-Url: beginning-photography
     ContentWriter:
 -
-    Category: Tech
+    Category: tech
     Title: Iphone Basics
     Location: Room D123
     Date-Time: Tuesday, Aug. 23, 5-8 p.m.
@@ -92,7 +92,7 @@
     Title: Iphone Basics
     Location: Room D124
     Date-Time: Wednesday, Oct. 5, 5-8 p.m.
-    Description: same description
+    Description: This class is ideal for new iPhone or iPad users. You’ll learn how to set up and use an iPhone. Soon after, you can use it to make your life easier, more efficient and fun. We’ll cover basic features and functions including activating a new device, installing iTunes, setting up and synchronizing the device, configuring iCloud, setting up email accounts, downloading and arranging apps, and rebooting. Bring your device, logins and passwords to class.
     Instructor: Jo Daley
     Course-No: LECT 9150.Q23
     Image: dummy
@@ -111,10 +111,10 @@
     ContentWriter:
 -
     Category: Tech
-    Title: Adroid Devices
+    Title: Android Devices
     Location: Room D123
     Date-Time: Thursday, Sept. 15, 5-8 p.m.
-    Description: Learn to utilize all the features your android phone offers.Topics will be setting up your phone, features, configuringemail accounts, finding and installing apps, sharing files,connecting to Wi-Fi, maximizing battery life, personalizingyour device, and setting up security. This session is ideal ifyou own or are thinking of buying an android phone. Bringyour android device, logins and passwords to class.
+    Description: Learn to utilize all the features your android phone offers. Topics will be setting up your phone, features, configuring email accounts, finding and installing apps, sharing files, connecting to Wi-Fi, maximizing battery life, personalizing your device, and setting up security. This session is ideal if you own or are thinking of buying an android phone. Bring your android device, logins and passwords to class.
     Instructor: Jo Daley
     Course-No: MICR 9020.Q13
     Image: dummy
@@ -147,7 +147,7 @@
     Title: Real Ghosts of the Kankakee Valley
     Location:
     Date-Time:
-    Description: This course uncovers and explores the truth behind several area ghosts, including:\ the Watseka Wonder from the 1800s; the Blue House Spectre from the Civil War; the Papoose’s Cradle from Potawatomi Days; the Joliet man suspected of being Jack the Ripper; and our area’s park that is really a graveyard.
+    Description: "This course uncovers and explores the truth behind several area ghosts, including: the Watseka Wonder from the 1800s; the Blue House Spectre from the Civil War; the Papoose’s Cradle from Potawatomi Days; the Joliet man suspected of being Jack the Ripper; and our area’s park that is really a graveyard."
     Instructor: Phil Angelo
     Course-No: LLLI 9370.A13
     Image: real-ghosts-of-kankakee-valley-dpc_68212895
@@ -177,10 +177,10 @@
     ContentWriter:
 -
     Category: Career Services
-    Title: Chronological Resumes from Start toFinish
+    Title: Chronological Resumes from Start to Finish
     Location:
     Date-Time:
-    Description: Learn how to create a job objective that gets results andshowcase your employment and educational backgroundin a chronologically formatted resume. Great for peoplewho are looking to move up in a career field.
+    Description: Learn how to create a job objective that gets results and showcase your employment and educational background in a chronologically formatted resume. Great for people who are looking to move up in a career field.
     Instructor:
     Course-No: LECT 9034.Q13
     Image: dummy
@@ -188,12 +188,45 @@
     ContentWriter:
 -
     Category: Career Services
-    Title: Write a Cover Letter ThatGets Noticed
+    Title: Write a Cover Letter That Gets Noticed
     Location:
     Date-Time:
-    Description: Learn about the components of asuccessful cover letter.
+    Description: Learn about the components of a successful cover letter.
     Instructor:
     Course-No: LECT 9052.Q13
     Image: dummy
     PageName-Url: write-a-cover-letter-that-gets-noticed
+    ContentWriter:
+-
+    Category: Tech
+    Title: Intro to Web Design
+    Location: Room D121
+    Date-Time: Wednesday and Thursday, Sept. 21 and 22 5-8 p.m.
+    Description: "Learn how to design your own website. This class will cover what you need to know for good web design, including: load time, navigation, layout and color schemes. Also included are HTML programming basics, WYSIWYG editor, Cascading Style Sheets, premade design sites, as well as domain name registration. This class is intended for people with computer experience, but new to designing website."
+    Instructor: Jo Daley
+    Course-No: LECT 9715.Q13
+    Image: dummy
+    PageName-Url: intro-to-web-design
+    ContentWriter:
+-
+    Category: Tech
+    Title: CPR
+    Location: Room D151
+    Date-Time:
+    Description: "This course provides the information, training, demonstration and practice necessary to pass the CPR Health Care Provider written examination and perform adult, child and infant cardiopulmonary resuscitation acceptable to the American Heart Association (AHA). Class notes: After successful completion, participants will receive an AHA certification card. No refunds are given after the registration deadline. Textbooks can be picked up from the Continuing Education Office prior to the first class."
+    Instructor: Sheree Wertz
+    Course-No:
+    Image: dummy
+    PageName-Url: cpr
+    ContentWriter:
+-
+    Category: Professional Development/Languages
+    Title: "Spanish Interpretation: Medical"
+    Location: Room D123
+    Date-Time:
+    Description: "Interpreters are needed in medical environments to assist clients unable to communicate in English. Language barriers can prevent some clients from accessing services which might leave them at risk for receiving inappropriate medical care. This Healthcare Interpreters Training course will provide a strong foundation. The course includes practice through role playing for a real world experience. Topics include: The Role of the Interpreter, Interpreter Protocol, Code of Ethics, Standards of Practice, Medical Terminology, Body Systems and their functions, Cultural Competency, Title VI and the Health Insurance Portability and Accountability Act (HIPAA). Class notes: Participants must be fluent in both English and Spanish before enrollment. You must attend all classes and pass the final oral and written exams to earn a certificate of successful completion. Materials fee is $?"
+    Instructor: Lupita Sorich
+    Course-No: SPAN 341D.Q13
+    Image: dummy
+    PageName-Url: spanish-interpretation-medical
     ContentWriter:
