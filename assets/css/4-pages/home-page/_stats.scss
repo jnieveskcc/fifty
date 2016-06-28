@@ -5,10 +5,11 @@
 
 .power-of-community__text {
   bottom: 0;
-  color: $primary-blue;
-  position:relative;
-  text-align: center;
-  z-index: 2;
+  color: #0e3c63;
+  font-weight: 400;
+  width: 737px;
+  font-size: 22px;
+  padding-left: 20px;
 }
 
 .power-of-community {
@@ -16,7 +17,7 @@
   background-image: url('/assets/img/goldshine.jpg');
   background-size: cover;
   position: relative;
-  padding-top: 30px;
+  padding-top: 40px;
   padding-bottom: 30px;
 }
 
@@ -32,13 +33,23 @@
 
 .power-of-community__inner-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-content: center;
+  padding-left: 20px;
+}
+
+.power-of-coumunity__headline {
+  text-transform: uppercase;
+  font-size: 40px;
+  color: $primary-blue;
 }
 
 @media(max-width:767px) {
-  .power-of-community {
-    display: none;
+  .power-of-community__inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
   }
 }
