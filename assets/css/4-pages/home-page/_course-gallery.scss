@@ -90,11 +90,17 @@
   background-repeat: no-repeat;
     fill: $text-secondary-colour;
   background-position: center;
-  background-size: 70%;
+  background-size: 82%;
   width: 100%;
   height: 105px;
   display: block;
   text-indent: -9999px;
+}
+
+@media(min-width:1730px){
+  .card--headline {
+      background-size: 48%;
+  }
 }
 
 @media(max-width:767px) {
@@ -113,6 +119,12 @@
 
   .home-course-inner {
     display: none;
+  }
+
+  .home-course__text {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
   }
 }
 

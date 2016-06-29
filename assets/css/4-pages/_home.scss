@@ -56,6 +56,11 @@
   text-indent: -9999px;
 }
 
+.contact__home-photo{
+  max-width: 90%;
+  height: auto;
+  margin-bottom: 2em;  
+}
 .contact__home-text{
   font-size: 19px;
   width: 499px;
@@ -78,9 +83,21 @@
   width: 320px;
 }
 
+@media(min-width:1730px){
+.contact__home-lead {
+      background-size: 43%;
+  }
+}
+
 @media (max-width: 775px) {
   .content-wrap {
     display: block;
+  }
+
+  .contact__home-text{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
   }
 }
 
@@ -177,5 +194,23 @@ section {
       .contact__home-lead {
         height: 50px;
         background-size: contain;
+      }
+    }
+
+    @media(max-width:425px) {
+      .contact__home-lead {
+        height: 32px;
+      }
+    }
+
+    @media(max-width:375px) {
+      .contact__home-lead {
+        height: 32px;
+      }
+    }
+
+    @media(max-width:320px) {
+      .contact__home-lead {
+        height: 32px;
       }
     }

@@ -65,6 +65,11 @@
   background-image: url(/assets/img/cta.svg)
 }
 
+@media(min-width:1730px){
+  .home-intro__headline {
+    background-size: 72%;
+  }
+}
 @media(max-width:767px){
   .home-intro {
     height: 100%;

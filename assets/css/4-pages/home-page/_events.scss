@@ -63,6 +63,12 @@ flex-direction: column;
   width: 320px;
 }
 
+@media(min-width:1730px){
+.home-events__lead {
+      background-size: 43%;
+  }
+}
+
 @media(max-width:768px) {
   .home-events {
     padding-bottom: 0;

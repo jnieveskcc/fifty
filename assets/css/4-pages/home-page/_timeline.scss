@@ -82,6 +82,12 @@
   background-image: url("/assets/img/10-circle.png");
 }
 
+@media(min-width:1730px){
+.home-timeline__home-lead {
+      background-size: 43%;
+  }
+}
+
 @media(max-width:768px) {
 
   .home-timeline {
