@@ -44,6 +44,16 @@
   margin-left: 10px;
 }
 
+.timeline-event__accredited {
+  width: 300px;
+  margin-left: 10px;
+}
+
+.timeline-event__accredited img {
+  border: 1px solid $grey-3;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
 @media(max-width:767px) {
 
   .decade {
@@ -68,6 +78,16 @@
   }
 
   .timeline-event__photo {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .timeline-event__accredited {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .timeline-event__accredited img {
     margin-left: 0;
     max-width: 100%;
   }
