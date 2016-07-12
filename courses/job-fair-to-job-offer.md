@@ -6,5 +6,5 @@ Instructor:
 Location:
 Date-Time:
 Description: "Learn how to prepare for, and get the most out of, KCC’s job fair."
-Image: dummy.png
+Image: job-offer_iS_000003356691Large.jpg
 ---
