@@ -56,10 +56,25 @@
   text-indent: -9999px;
 }
 
-.contact__home-photo{
+.contact__home-photo-group {
   max-width: 90%;
   height: auto;
-  margin-bottom: 2em;  
+  margin-bottom: 2em;
+  display: block;
+  list-style: none;
+  padding: 0;
+}
+
+.contact__home-photo {
+  width: 100%;
+  height: auto;
+}
+
+.contact__home-photo-item {
+  width: 25%;
+  height: 25%;
+  display: inline-block;
+  float: left;
 }
 .contact__home-text{
   font-size: 19px;
