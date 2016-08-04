@@ -27,14 +27,14 @@
     Category: tech
     Title: Iphone Basics
     Location: Room D123
-    Date-Time: Tuesday, Aug. 23, 5-8 p.m.
+    Date-Time: Wednesday, Aug. 24 5-8 p.m.
     Description: This class is ideal for new iPhone or iPad users. You’ll learn how to set up and use an iPhone. Soon after, you can use it to make your life easier, more efficient and fun. We’ll cover basic features and functions including activating a new device, installing iTunes, setting up and synchronizing the device, configuring iCloud, setting up email accounts, downloading and arranging apps, and rebooting. Bring your device, logins and passwords to class.
     Instructor: Jo Daley
     Course-No: LECT 9150.Q13
     Image: iphone_iS_000016367725Medium
     PageName-Url: iphone-basics-1
     ContentWriter:
-    Sort: Aug. 23
+    Sort: Aug. 24
 -
     Category: Tech
     Title: Facebook 101
@@ -59,6 +59,18 @@
     PageName-Url: beginning-photography
     ContentWriter:
     Sort: Sept. 13-Nov. 1
+-
+    Category: tech
+    Title: Advanced Android
+    Location: Room D123
+    Date-Time: Monday, Sept. 26
+    Description: "With the skills you will learn in this lecture, you’ll be a master at using your Android smartphone or tablet. Learn how to print from your device, turn your device into a Wi-Fi hotspot, block calls, and use the group play app to interactively play games with others near you. Other topics include: NFC tags, screen mirroring, tethering your device, and adding memory. Bring your phone or tablet to class along with your passwords and logins. Prerequisite: Completion of the Android Basic class or a solid knowledge of the basic features of the phone."
+    Instructor: Jo Daley
+    Course-No: MICR 9020.Q13
+    Image: android-advanced
+    PageName-Url: advanced-android
+    ContentWriter:
+    Sort: Sept. 26
 -
     Category: Tech
     Title: Android Devices
@@ -111,22 +123,23 @@
     Category: tech
     Title: Iphone Basics
     Location: Room D124
-    Date-Time: Wednesday, Oct. 5, 5-8 p.m.
+    Date-Time: Monday, Sept. 19  5-8 p.m.
     Description: This class is ideal for new iPhone or iPad users. You’ll learn how to set up and use an iPhone. Soon after, you can use it to make your life easier, more efficient and fun. We’ll cover basic features and functions including activating a new device, installing iTunes, setting up and synchronizing the device, configuring iCloud, setting up email accounts, downloading and arranging apps, and rebooting. Bring your device, logins and passwords to class.
     Instructor: Jo Daley
     Course-No: LECT 9150.Q23
     Image: iphone_iS_000016367725Medium
     PageName-Url: iphone-basics-2
     ContentWriter:
-    Sort: Oct. 5
+    Sort: Sept. 19
 -
     Category: Tech
     Title: "Diabetes&mdash;it's Complicated. An Update and Overview"
     Location: Iroquois Room
     Date-Time: Friday, Oct. 28, 8:30 a.m.-4 p.m.
-    Description: "Description coming"
+    Description: "Everything you have always wanted to know about diabetes&mdash;and then some because there's LOTS of new information since the last time you heard a diabetes lecture!! Join Barb Bancroft for an entire day on Type 1 and Type 2 diabetes. Barb will give you the current thinking on the pathophysiology of both Type 1 and Type 2. Instead of the old &quot;triad&quot; of problems in type 2 diabetes, we now have the &quot;ominous eight&quot; underlying problems!  The clinical manifestations will be correlated with the pathophysiology, as will the various classes of drugs used to treat the underlying insulin deficiency and/or insulin resistance. Barb will also discuss the complications of this disease&mdash;including microvascular and macrovascular complications involving all body systems. Lab tests will also be described&mdash;when to do them and how to interpret the results. Therapeutic lifestyle changes will be emphasized for both the prevention and the treatment of the disease.
+    Class note: 5 contact hours awarded to Illinois licensed nurses, nursing home administrators, occupational therapists, and counselors."
     Instructor: Barb Bancroft
-    Course-No:
+    Course-No: HLTH 369A.A13
     Image: diabetes-iS_000005489409Small
     PageName-Url: diabetes-its-complicated-an-update-and-overview
     ContentWriter:
@@ -150,11 +163,23 @@
     Date-Time: Wednesday, Nov. 9, 6-8 p.m.
     Description: "In this very calming and relaxing class, we will begin with very simple stretching to prepare for meditation. We begin with simple, gentle movements from Qigong, the ancient Chinese health care and maintenance system. The Form we will practice is an Elemental Energy Form which concludes with the “Healing Sounds” practice, followed by very deep relaxation. Come join us as the healing tones of brass and crystal singing bowls, mellow gongs, and bells bathe you in healing meditational vibration. Together, we will reach deep states of relaxation and meditation. You’ll leave feeling “re-tuned”, restored and rebalanced."
     Instructor: Gary Paruszkiewicz
-    Course-No:
+    Course-No: LECT 8790.Q13
     Image: meditation-dpc_97680501
     PageName-Url: sound-meditation
     ContentWriter:
     Sort: Nov. 9
+-
+    Category: Tech
+    Title: Cloud Storage
+    Location: Room D122
+    Date-Time: Monday, Nov. 14
+    Description: "Access your photos, music or files from anywhere! With cloud storage you have the flexibility and convenience of retrieving necessary information right from your smartphone, laptop or any computer with internet access. There are many options available to begin storing your data on the cloud. Google My Drive, DropBox and Microsoft SkyDrive will be explored in this seminar. Learn what cloud storage is, how to setup storage, create an account, store and synch your data on the cloud. This class is intended for people new to cloud storage, beginners and individuals who would like to learn how to use the technology. Perfect for students, small business owners, and traveling professionals."
+    Instructor: Jo Daley
+    Course-No: COMP 9010.Q13
+    Image: clouds_iS_000039998560Large
+    PageName-Url: cloud-storage
+    ContentWriter:
+    Sort: Nov. 14
 -
     Category: Lifelong Learning
     Title: A Behind the Scenes Look at Racing
@@ -162,32 +187,8 @@
     Date-Time: Tuesday, Nov. 15, 1-3 p.m.
     Description: "Take a look 'under the hood' of different racing worlds such as draf racing, Indy care, NASCAR and unlimited Reno Air Racers. You'll ride shotgun as Art shares experiences as a driver, car builder, fabricator, pit crew member and mechanic for all of the above professional racing classes. Potential students are race fans and those who want to know more about racing."
     Instructor: Art Supernant
-    Course-No: LLLI 9500
+    Course-No: LLLI 9500.A13
     Image: race-car-IS_000040686226_Large
     PageName-Url: a-behind-the-scenes-look-at-racing
     ContentWriter:
     Sort: Nov. 15
--
-    Category: tech
-    Title: Advanced Android
-    Location: Room D123
-    Date-Time: Wednesday, Nov. 16, 5-8 p.m.
-    Description: "With the skills you will learn in this lecture, you’ll be a master at using your Android smartphone or tablet. Learn how to print from your device, turn your device into a Wi-Fi hotspot, block calls, and use the group play app to interactively play games with others near you. Other topics include: NFC tags, screen mirroring, tethering your device, and adding memory. Bring your phone or tablet to class along with your passwords and logins. Prerequisite: Completion of the Android Basic class or a solid knowledge of the basic features of the phone."
-    Instructor: Jo Daley
-    Course-No: MICR 9020.Q13
-    Image: android-advanced
-    PageName-Url: advanced-android
-    ContentWriter:
-    Sort: Nov. 16
--
-    Category: Tech
-    Title: Cloud Storage
-    Location: Room D121
-    Date-Time: Thursday, Dec. 1, 5-8 p.m.
-    Description: description coming
-    Instructor: Jo Daley
-    Course-No:
-    Image: clouds_iS_000039998560Large
-    PageName-Url: cloud-storage
-    ContentWriter:
-    Sort: Dec. 1
