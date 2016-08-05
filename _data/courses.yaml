@@ -37,16 +37,16 @@
     Sort: Aug. 24
 -
     Category: Tech
-    Title: Facebook 101
-    Location: Room D121
-    Date-Time: Wednesday, Sept. 7, 5-8 p.m.
-    Description: Learn the ins and outs of the world’s largest social networking site, Facebook. In this hands-on workshop you will learn how to connect with family and friends quickly and easily by posting information, sharing pictures, creating events, uploading videos, and creating groups. Other topics include protecting your privacy, using Facebook messenger, managing your news feed, using lists to manage sharing, and add/remove friends. If you have an existing Facebook account, please bring your login information to class. Basic computer skills required.
+    Title: Android Devices
+    Location: Room D123
+    Date-Time: Monday, Sept. 12 5-8 p.m.
+    Description: "Learn to utilize all the features your android phone offers. Topics will be setting up your phone, features, configuring email accounts, finding and installing apps, sharing files, connecting to Wi-Fi, maximizing battery life, personalizing your device, and setting up security. This session is ideal if you own or are thinking of buying an android phone. Bring your android device, logins and passwords to class."
     Instructor: Jo Daley
-    Course-No: LECT 8180.Q13
-    Image: Facebook-Social-dpc_82041204
-    PageName-Url: facebook-101
+    Course-No: MICR 9020.Q13
+    Image: android-devices-advanced-dpc_101847366
+    PageName-Url: android-devices
     ContentWriter:
-    Sort: Sept. 7
+    Sort: Sept. 12
 -
     Category: Hobbie
     Title: Beginning Photography
@@ -61,34 +61,22 @@
     Sort: Sept. 13-Nov. 1
 -
     Category: tech
-    Title: Advanced Android
-    Location: Room D123
-    Date-Time: Monday, Sept. 26
-    Description: "With the skills you will learn in this lecture, you’ll be a master at using your Android smartphone or tablet. Learn how to print from your device, turn your device into a Wi-Fi hotspot, block calls, and use the group play app to interactively play games with others near you. Other topics include: NFC tags, screen mirroring, tethering your device, and adding memory. Bring your phone or tablet to class along with your passwords and logins. Prerequisite: Completion of the Android Basic class or a solid knowledge of the basic features of the phone."
+    Title: Iphone Basics
+    Location: Room D124
+    Date-Time: Monday, Sept. 19  5-8 p.m.
+    Description: This class is ideal for new iPhone or iPad users. You’ll learn how to set up and use an iPhone. Soon after, you can use it to make your life easier, more efficient and fun. We’ll cover basic features and functions including activating a new device, installing iTunes, setting up and synchronizing the device, configuring iCloud, setting up email accounts, downloading and arranging apps, and rebooting. Bring your device, logins and passwords to class.
     Instructor: Jo Daley
-    Course-No: MICR 9020.Q13
-    Image: android-advanced
-    PageName-Url: advanced-android
+    Course-No: LECT 9150.Q23
+    Image: iphone_iS_000016367725Medium
+    PageName-Url: iphone-basics-2
     ContentWriter:
-    Sort: Sept. 26
--
-    Category: Tech
-    Title: Android Devices
-    Location: Room D123
-    Date-Time: Thursday, Sept. 15, 5-8 p.m.
-    Description: "Learn to utilize all the features your android phone offers. Topics will be setting up your phone, features, configuring email accounts, finding and installing apps, sharing files, connecting to Wi-Fi, maximizing battery life, personalizing your device, and setting up security. This session is ideal if you own or are thinking of buying an android phone. Bring your android device, logins and passwords to class."
-    Instructor: Jo Daley
-    Course-No: MICR 9020.Q13
-    Image: android-devices-advanced-dpc_101847366
-    PageName-Url: android-devices
-    ContentWriter:
-    Sort: Sept. 15
+    Sort: Sept. 19
 -
     Category: Professional Development/Languages
     Title: "Spanish Interpretation: Medical"
     Location: Room D123
     Date-Time: Mondays, Sept. 19-Oct 24, 6-9 p.m.
-    Description: "Interpreters are needed in medical environments to assist clients unable to communicate in English. Language barriers can prevent some clients from accessing services which might leave them at risk for receiving inappropriate medical care. This Healthcare Interpreters Training course will provide a strong foundation. The course includes practice through role playing for a real world experience. Topics include: The Role of the Interpreter, Interpreter Protocol, Code of Ethics, Standards of Practice, Medical Terminology, Body Systems and their functions, Cultural Competency, Title VI and the Health Insurance Portability and Accountability Act (HIPAA). Class notes: Participants must be fluent in both English and Spanish before enrollment. You must attend all classes and pass the final oral and written exams to earn a certificate of successful completion. <b>Materials fee is $10</b>."
+    Description: "Interpreters are needed in medical environments to assist clients unable to communicate in English. Language barriers can prevent some clients from accessing services which might leave them at risk for receiving inappropriate medical care. This Healthcare Interpreters Training course will provide a strong foundation. The course includes practice through role playing for a real world experience. Topics include: The Role of the Interpreter, Interpreter Protocol, Code of Ethics, Standards of Practice, Medical Terminology, Body Systems and their functions, Cultural Competency, Title VI and the Health Insurance Portability and Accountability Act (HIPAA). <b>Class notes:</b> Participants must be fluent in both English and Spanish before enrollment. You must attend all classes and pass the final oral and written exams to earn a certificate of successful completion. <b>Materials fee is $10</b>."
     Instructor: Lupita Sorich
     Course-No: SPAN 341D.Q13
     Image: spanish-iS_000015675640Large
@@ -99,14 +87,26 @@
     Category: Health
     Title: Humor in Counseling
     Location: Iroquois Room
-    Date-Time: Friday, Sept. 23, 8:30 a.m.-4 p.m.
+    Date-Time: Friday, Sept. 23, 9 a.m.-noon
     Description: "When Norman Cousins was suffering from a debilitating illness of his immune system, doctors predicted that he would not live a long life. In pain twenty-four hours a day, Cousins discovered that for every ten minutes he laughed, he experienced two hours of pain-free sleep. He actually lived sixteen years longer than his doctors predicted. Participants will leave this workshop with tools that will enable them to incorporate more humor into their work with clients. The second part of this workshop will focus on the use of humor and other strategies to decrease counselor stress, burnout, compassion fatigue, and improve overall organizational health. This promises to be a fun learning experience."
     Instructor: Mark Sanders
-    Course-No:
+    Course-No: LECT 8760.A13
     Image: counselinghumor-iS_000020107404Large
     PageName-Url: humor-in-counseling
     ContentWriter:
     Sort: Sept. 23
+-
+    Category: tech
+    Title: Advanced Android
+    Location: Room D123
+    Date-Time: Monday, Sept. 26
+    Description: "With the skills you will learn in this lecture, you’ll be a master at using your Android smartphone or tablet. Learn how to print from your device, turn your device into a Wi-Fi hotspot, block calls, and use the group play app to interactively play games with others near you. Other topics include: NFC tags, screen mirroring, tethering your device, and adding memory. Bring your phone or tablet to class along with your passwords and logins. Prerequisite: Completion of the Android Basic class or a solid knowledge of the basic features of the phone."
+    Instructor: Jo Daley
+    Course-No: MICR 9020.Q13
+    Image: android-advanced
+    PageName-Url: advanced-android
+    ContentWriter:
+    Sort: Sept. 26
 -
     Category: Travel (Hobbie/Personal Development)
     Title: Free Travel
@@ -121,16 +121,16 @@
     Sort: Oct. 4
 -
     Category: tech
-    Title: Iphone Basics
+    Title: Advanced iPhone
     Location: Room D124
-    Date-Time: Monday, Sept. 19  5-8 p.m.
-    Description: This class is ideal for new iPhone or iPad users. You’ll learn how to set up and use an iPhone. Soon after, you can use it to make your life easier, more efficient and fun. We’ll cover basic features and functions including activating a new device, installing iTunes, setting up and synchronizing the device, configuring iCloud, setting up email accounts, downloading and arranging apps, and rebooting. Bring your device, logins and passwords to class.
+    Date-Time: Monday, Oct. 10 5-8 p.m.
+    Description: Go beyond the basics of using your iPhone and learn a number of features such as Bluetooth, hard reset, factory reset, screen capture, printing, personal hotspot, backing up with iCloud, Airplay, deleting cache and cookies, locating a lost device, Siri features, and more! Bring your iPhone, your questions, and be prepared to become a master at using technology.
     Instructor: Jo Daley
-    Course-No: LECT 9150.Q23
-    Image: iphone_iS_000016367725Medium
-    PageName-Url: iphone-basics-2
+    Course-No: LECT 9703.Q13
+    Image: iphone-basic
+    PageName-Url: advanced-iphone
     ContentWriter:
-    Sort: Sept. 19
+    Sort: Oct. 10
 -
     Category: Tech
     Title: "Diabetes&mdash;it's Complicated. An Update and Overview"
@@ -145,17 +145,17 @@
     ContentWriter:
     Sort: Oct. 28
 -
-    Category: tech
-    Title: Advanced iPhone
-    Location: Room D124
-    Date-Time: Wednesday, Nov. 2, 5-8 p.m.
-    Description: Go beyond the basics of using your iPhone and learn a number of features such as Bluetooth, hard reset, factory reset, screen capture, printing, personal hotspot, backing up with iCloud, Airplay, deleting cache and cookies, locating a lost device, Siri features, and more! Bring your iPhone, your questions, and be prepared to become a master at using technology.
+    Category: Tech
+    Title: Facebook 101
+    Location: Room D122
+    Date-Time: Monday, Nov. 7
+    Description: Learn the ins and outs of the world’s largest social networking site, Facebook. In this hands-on workshop you will learn how to connect with family and friends quickly and easily by posting information, sharing pictures, creating events, uploading videos, and creating groups. Other topics include protecting your privacy, using Facebook messenger, managing your news feed, using lists to manage sharing, and add/remove friends. If you have an existing Facebook account, please bring your login information to class. Basic computer skills required.
     Instructor: Jo Daley
-    Course-No: LECT 9703.Q13
-    Image: iphone-basic
-    PageName-Url: advanced-iphone
+    Course-No: LECT 8180.Q13
+    Image: Facebook-Social-dpc_82041204
+    PageName-Url: facebook-101
     ContentWriter:
-    Sort: Nov. 2
+    Sort: Nov. 7
 -
     Category: Wellness
     Title: Sound Meditation
