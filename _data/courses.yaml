@@ -72,6 +72,30 @@
     ContentWriter:
     Sort: Sept. 19
 -
+    Category: Career Services
+    Title: Resumes and Cover Letters
+    Location: Room D123
+    Date-Time: Wednesday, Sept. 14; 4-5:30 p.m.
+    Description: "Learn how to create a job objective that gets results and showcase your employment and educational background in a chronologically formatted resume. Components of a successful cover letter will also be reviewed. Great for people who are looking to move up in a career field."
+    Instructor: Kris Condon
+    Course-No: LECT 9034.Q13
+    Image: resume
+    PageName-Url: resumes-and-cover-letters
+    ContentWriter:
+    Sort: Sept. 14; 4-5:30 p.m.
+-
+    Category: Career Services
+    Title: Resumes and Cover Letters
+    Location: Room D151
+    Date-Time: Wednesday, Sept. 14; 6-7:30 p.m.
+    Description: "Learn how to create a job objective that gets results and showcase your employment and educational background in a chronologically formatted resume. Components of a successful cover letter will also be reviewed. Great for people who are looking to move up in a career field."
+    Instructor: Kris Condon
+    Course-No: LECT 9034.Q23
+    Image: resume
+    PageName-Url: resumes-and-cover-letters-2
+    ContentWriter:
+    Sort: Sept. 14; 6-7:30 p.m.
+-
     Category: Professional Development/Languages
     Title: "Spanish Interpretation: Medical"
     Location: Room D123
@@ -108,6 +132,30 @@
     ContentWriter:
     Sort: Sept. 26
 -
+    Category: Career Services
+    Title: From Job Fair to Job Offer
+    Location: Room D123
+    Date-Time: Wednesday, Sept. 28; 4-5:30 p.m.
+    Description: "Learn how to prepare for, and get the most out of, KCC’s job fair."
+    Instructor: Kris Condon
+    Course-No: LECT 9057.Q13
+    Image: jobs-iS_000019916394Large
+    PageName-Url: job-fair-to-job-offer
+    ContentWriter:
+    Sort: Sept. 28; 4-5:30 p.m.
+-
+    Category: Career Services
+    Title: From Job Fair to Job Offer
+    Location: Room D151
+    Date-Time: Wednesday, Sept. 28; 6-7:30 p.m.
+    Description: "Learn how to prepare for, and get the most out of, KCC’s job fair."
+    Instructor: Kris Condon
+    Course-No: LECT 9057.Q23
+    Image: jobs-iS_000019916394Large
+    PageName-Url: job-fair-to-job-offer-2
+    ContentWriter:
+    Sort: Sept. 28; 6-7:30 p.m.
+-
     Category: Travel (Hobbie/Personal Development)
     Title: Free Travel
     Location: Room D123
@@ -136,13 +184,49 @@
     Title: Advanced iPhone
     Location: Room D124
     Date-Time: Monday, Oct. 10 5-8 p.m.
-    Description: Go beyond the basics of using your iPhone and learn a number of features such as Bluetooth, hard reset, factory reset, screen capture, printing, personal hotspot, backing up with iCloud, Airplay, deleting cache and cookies, locating a lost device, Siri features, and more! Bring your iPhone, your questions, and be prepared to become a master at using technology.
+    Description: "Go beyond the basics of using your iPhone and learn a number of features such as Bluetooth, hard reset, factory reset, screen capture, printing, personal hotspot, backing up with iCloud, Airplay, deleting cache and cookies, locating a lost device, Siri features, and more! Bring your iPhone, your questions, and be prepared to become a master at using technology."
     Instructor: Jo Daley
     Course-No: LECT 9703.Q13
     Image: iphone-basic
     PageName-Url: advanced-iphone
     ContentWriter:
     Sort: Oct. 10
+-
+    Category: Lifelong Learning
+    Title: "Fictional Detective: Way Back When"
+    Location: Room D123
+    Date-Time: Wednesday, Oct  12, 10 a.m.-noon
+    Description: "Millions of mystery readers have enjoyed Agatha Christie’s Hercule Poirot and Miss Marple. But perhaps they don’t know about other fictional detectives such as Patricia Wentworth’s Miss Silver; Dorothy Sayer’s Lord Peter Whimsey; Ellis Peters’ Brother Cadfell; Rex Stout’s Nero Wolfe; Elizabeth Peters’ dynamic duo; and Amelia Peabody and her husband Radcliffe Emerson. And we must not forget Perry Mason and Ellery Queen. Class members will hear stories about some of these writers and how these books characterize life &quot;way back when.&quot; When you come to class, you are welcome to bring thoughts on other detectives from the 1920s through the 1960s for discussion."
+    Instructor: Maureen Shannon
+    Course-No: LLLI 9750.A13
+    Image: sherlock
+    PageName-Url: fictional-detective-way-back-when
+    ContentWriter:
+    Sort: Oct. 12
+-
+    Category: Career Services
+    Title: I Have an Interview... Now What?
+    Location: Room D123
+    Date-Time: Thursday, Oct. 13, 10:30-11:30 a.m.
+    Description: Learn to prepare for a successful interview.
+    Instructor: Mary Posing
+    Course-No: LECT 9035.A13
+    Image: job-offer_iS_000003356691Large
+    PageName-Url: i-have-an-interview-now-what
+    ContentWriter:
+    Sort: Oct. 13, 10:30-11:30 a.m.
+-
+    Category: Career Services
+    Title: I Have an Interview... Now What?
+    Location: Room D123
+    Date-Time: Thursday, Oct. 13, 5:30-6:30 p.m.
+    Description: Learn to prepare for a successful interview.
+    Instructor: Mary Posing
+    Course-No: LECT 9035.Q13
+    Image: job-offer_iS_000003356691Large
+    PageName-Url: i-have-an-interview-now-what-2
+    ContentWriter:
+    Sort: Oct. 13, 5:30-6:30 p.m.
 -
     Category: Tech
     Title: "Diabetes&mdash;it's Complicated. An Update and Overview"
@@ -156,6 +240,18 @@
     PageName-Url: diabetes-its-complicated-an-update-and-overview
     ContentWriter:
     Sort: Oct. 28
+-
+    Category: Lifelong Learning Institute
+    Title: Presidential Politics and Kankakee County
+    Location: Room D123
+    Date-Time: Tuesday, Nov. 1, 10-11:30 a.m.
+    Description: "What do presidents McKinley, Eisenhower and Obama have in common? All have visited Kankakee County before or after their terms. Some leaders, like Ronald Reagan and Richard Nixon campaigned here often.  The presentation will review the history of presidential visits, and presidential campaign visits in Kankakee County, and explain why that once happened often, but not as often any more.  There will also be a review of all of the results of presidential election votes in Kankakee County. Why we voted the way we voted, and how you might analyze Kankakee County’s vote in the election."
+    Instructor: Phil Angelo
+    Course-No: LLLI 9740.A13
+    Image: presidents
+    PageName-Url: presidential-politics-and-kankakee-county
+    ContentWriter:
+    Sort: Nov. 1
 -
     Category: Tech
     Title: Facebook 101
