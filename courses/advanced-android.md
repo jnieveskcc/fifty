@@ -7,5 +7,5 @@ Description: "With the skills you will learn in this lecture, you’ll be a mast
 Prerequisite: Completion of the Android Basic class or a solid knowledge of the basic features of the phone."
 Instructor: Jo Daley
 Course-No: MICR 9020.Q13
-Image: android-advanced
+Image: android-advanced.jpg
 ---
