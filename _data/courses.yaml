@@ -132,6 +132,18 @@
     ContentWriter:
     Sort: Sept. 26
 -
+    Category: Special Topic
+    Title: Great Words of Wisdom
+    Location: Room D123
+    Date-Time: Tuesday, Sept. 27 10 a.m.-11:30 a.m.
+    Description: "Take a look at some of the great works of literature with Willie Dixon. Mr. Dixon will recite and review The Gettysburg Address, Desiderata, I Know Why the Cage Bird Sings, Phenomenal Woman, Sullivan Ballou Letter, The Impossible Dream, The Raven and Birmingham Sunday. Learn how these words have impacted lives, cultures, and history and are still so true today."
+    Instructor: Willie Dixon
+    Course-No: LECT 8800.A13
+    Image: lincoln-gi-479502104
+    PageName-Url: great-words-of-wisdom
+    ContentWriter:
+    Sort: Sept. 27
+-
     Category: Career Services
     Title: From Job Fair to Job Offer
     Location: Room D123
@@ -312,3 +324,15 @@
     PageName-Url: a-behind-the-scenes-look-at-racing
     ContentWriter:
     Sort: Nov. 15
+-
+    Category: Tech
+    Title: "What's the Hype about Skype?"
+    Location: Room D122
+    Date-Time: Monday, Nov. 28
+    Description: "This hands-on class shows you a fun way to keep in touch with loved-ones across the nation and the world. Learn how to place phone calls and take part in free video chats using Skype. This seminar will cover basic functionality of Skype, including download and install, how to create a profile, setting up an account, adding other users, and creating groups. Class notes: Using Skype requires an internet connection and a computer or mobile device with a microphone and speakers. Video chats require a webcam. If you have an existing Skype account, please bring your login information to class. Prerequisite: Basic computer and Internet skills."
+    Instructor: Jo Daley
+    Course-No: COMP 9020.Q13
+    Image: skype-gi-181855215
+    PageName-Url: whats-the-hype-about-skype
+    ContentWriter:
+    Sort: Nov. 28
