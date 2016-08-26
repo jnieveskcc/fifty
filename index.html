@@ -75,7 +75,7 @@ title: Home
     <h2 class="home-events__lead">Events</h2>
     <div class="home-events__inner flex flex--center">
       <ul class="home-events__item-group-a">
-        {% for event in site.data.events | limit:2 %}
+        {% for event in site.data.events limit:2 %}
           <li class="home-events__item">
             <a href="/events/{{ event.Pageurl }}" class="home-events__title big">{{ event.Title }}</a><br />
             <span class="home-events__location">{{ event.Location }}</span><br />
@@ -84,7 +84,7 @@ title: Home
         {% endfor %}
       </ul>
       <ul class="home-events__item-group-b">
-        {% for event in site.data.events | limit:2 | offset:2 %}
+        {% for event in site.data.events limit:2 offset:2 %}
           <li class="home-events__item">
             <a href="/events/{{ event.Pageurl }}" class="home-events__title big">{{ event.Title }}</a><br />
             <span class="home-events__location">{{ event.Location }}</span><br />
