@@ -7,4 +7,5 @@ Description: "This course provides the information, training, demonstration and 
 Instructor: Sheree Wertz
 Course-No: WELL 9006.K23
 Image: CPR-iS_000003502929Large.jpg
+Status: Closed
 ---

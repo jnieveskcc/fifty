@@ -7,4 +7,5 @@ Description: "Interpreters are needed in medical environments to assist clients 
 Instructor: Lupita Sorich
 Course-No: SPAN 341D.Q13
 Image: spanish-iS_000015675640Large.jpg
+Status: filling fast
 ---

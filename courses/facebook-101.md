@@ -7,4 +7,5 @@ Description: Learn the ins and outs of the world’s largest social networking s
 Instructor: Jo Daley
 Course-No: LECT 8180.Q13
 Image: Facebook-Social-dpc_82041204.jpg
+Status: Closed
 ---

@@ -8,4 +8,5 @@ Class notes: Using Skype requires an internet connection and a computer or mobil
 Instructor: Jo Daley
 Course-No: COMP 9020.Q13
 Image: skype-gi-181855215.jpg
+Status: filling fast
 ---

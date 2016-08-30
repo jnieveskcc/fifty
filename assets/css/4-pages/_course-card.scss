@@ -25,6 +25,27 @@
   margin-bottom: 30px;
 }
 
+.course-card__closed {
+  background-color: $primary-red;
+}
+
+.course-card__completed{
+  background-color: $dark-blue-green;
+}
+
+.course-card__paying-seats {
+  background-color: $accent-purple;
+}
+
+.course-card__filling-fast {
+  background-color: $orange;
+  padding-bottom: 0;
+}
+
+.course-card__filling-fast .course-card__cta {
+  float: right;
+}
+
 .course-card__cta:hover {
   background-color: $accent-blue-bright;
   color: $white;
@@ -51,6 +72,10 @@
 }
 .course-card_inner-col-b b{
   font-size: 18px;
+}
+
+.course-card_inner-col-b .alert {
+  font-weight: 600;
 }
 
 @media(max-width:767px){

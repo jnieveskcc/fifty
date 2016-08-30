@@ -7,4 +7,5 @@ Description: Let Wayne Baranowski help you get acquainted with your camera. Lear
 Instructor: Wayne Baranowski
 Course-No: ARTS 301D.Q13
 Image: beginning-photography-dpc_78949277.jpg
+Status: Closed
 ---

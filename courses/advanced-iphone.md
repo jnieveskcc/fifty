@@ -7,4 +7,5 @@ Description: Go beyond the basics of using your iPhone and learn a number of fea
 Instructor: Jo Daley
 Course-No: LECT 9703.Q13
 Image: iphone-basic.jpg
+Status: Closed
 ---

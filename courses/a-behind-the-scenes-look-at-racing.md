@@ -7,4 +7,5 @@ Description: "Take a look 'under the hood' of different racing worlds such as dr
 Instructor: Art Supernant
 Course-No: LLLI 9500.A13
 Image: race-car-IS_000040686226_Large.jpg
+Status: 
 ---

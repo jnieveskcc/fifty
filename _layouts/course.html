@@ -12,7 +12,20 @@ layout: default
 				<b>Instructor:</b> {{page.Instructor}}
 			</p>
 			<p>{{page.Description}}</p>
-			<a class="course-card__cta button" href="https://connect.kcc.edu/wa/wa?TOKENIDX=3744693678&CONSTITUENCY=WBCE&type=P&pid=ST-WBSTS027A.SHOWALL.NEW">Sign up now</a>
+			{% case page.Status %}
+  		{% when 'Closed' %}
+				<p class="alert course-card__closed">Sorry this course is full</p>
+  		{% when 'Completed' %}
+				<p class="alert course-card__completed">Sorry the class has ended.</p>
+  		{% when 'Only paying seats available' %}
+    		<p class="alert course-card__paying-seats">ONLY PAYING SEATS AVAILABLE; FREE seats are FULL</p>
+			{% when 'filling fast' %}
+				<p class="alert course-card__filling-fast clearfix">Seats are filling fast. 
+					<a class="course-card__cta button" href="https://connect.kcc.edu/wa/wa?TOKENIDX=3744693678&CONSTITUENCY=WBCE&type=P&pid=ST-WBSTS027A.SHOWALL.NEW">Sign up now</a>
+				</p>
+  		{% else %}
+     		<a class="course-card__cta button" href="https://connect.kcc.edu/wa/wa?TOKENIDX=3744693678&CONSTITUENCY=WBCE&type=P&pid=ST-WBSTS027A.SHOWALL.NEW">Sign up now</a>
+			{% endcase %}
 		</div>
 		<img class="course-card__photo" src="/assets/img/courses/{{page.Image}}" width="300" height="380" alt="{{page.Title}} photo" />
 	</section>
