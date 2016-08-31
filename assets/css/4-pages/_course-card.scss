@@ -29,12 +29,36 @@
   background-color: $primary-red;
 }
 
+.course-card__closed a {
+  color: $orange;
+  outline: none;
+  text-decoration: none;
+}
+
+.course-card__closed a:focus,
+.course-card__closed a:hover {
+  color: $orange;
+}
+
 .course-card__completed{
   background-color: $dark-blue-green;
 }
 
+.course-card__completed a {
+  color: $orange;
+  outline: none;
+  text-decoration: none;
+}
+
+.course-card__completed a:focus,
+.course-card__completed a:hover {
+  color: $orange;
+}
+
+
 .course-card__paying-seats {
   background-color: $accent-purple;
+  padding-bottom: 0;
 }
 
 .course-card__filling-fast {
@@ -42,7 +66,7 @@
   padding-bottom: 0;
 }
 
-.course-card__filling-fast .course-card__cta {
+.course-card__filling-fast .course-card__cta, .course-card__paying-seats .course-card__cta {
   float: right;
 }
 

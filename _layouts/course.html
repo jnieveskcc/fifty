@@ -14,13 +14,13 @@ layout: default
 			<p>{{page.Description}}</p>
 			{% case page.Status %}
   		{% when 'Closed' %}
-				<p class="alert course-card__closed">Sorry this course is full</p>
+				<p class="alert course-card__closed">Sorry! This course is full. Choose another <a href="/courses/">free course</a>, or one from our <a href="http://www.kcc.edu/coned/Pages/default.aspx">personal development options</a>.</p>
   		{% when 'Completed' %}
-				<p class="alert course-card__completed">Sorry the class has ended.</p>
+				<p class="alert course-card__completed">The class has ended. Choose another <a href="/courses/">free course</a>, or one from our <a href="http://www.kcc.edu/coned/Pages/default.aspx">personal development options</a>.</p>
   		{% when 'Only paying seats available' %}
-    		<p class="alert course-card__paying-seats">ONLY PAYING SEATS AVAILABLE; FREE seats are FULL</p>
+    		<p class="alert course-card__paying-seats clearfix">ONLY PAYING SEATS AVAILABLE;<br/>FREE seats are FULL <a class="course-card__cta button" href="https://connect.kcc.edu/wa/wa?TOKENIDX=3744693678&CONSTITUENCY=WBCE&type=P&pid=ST-WBSTS027A.SHOWALL.NEW">Sign up now</a></p>
 			{% when 'filling fast' %}
-				<p class="alert course-card__filling-fast clearfix">Seats are filling fast. 
+				<p class="alert course-card__filling-fast clearfix">Seats are filling fast.
 					<a class="course-card__cta button" href="https://connect.kcc.edu/wa/wa?TOKENIDX=3744693678&CONSTITUENCY=WBCE&type=P&pid=ST-WBSTS027A.SHOWALL.NEW">Sign up now</a>
 				</p>
   		{% else %}
