@@ -1,0 +1,113 @@
+.fifty-fabulous-alumni {
+  background-color: $primary-blue;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.fifty_fabulous_alumni__home-lead{
+  background-image: url('/assets/img/successful-alumni-headline.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  color: $white;
+  width: 100%;
+  height: 165px;
+  display: block;
+  text-indent: -9999px;
+}
+
+.fifty-fabulous-alumni__home-photo-group {
+  max-width: 90%;
+  height: auto;
+  margin-bottom: 2em;
+  display: block;
+  list-style: none;
+  padding: 0;
+}
+
+.fifty-fabulous-alumni__home-photo {
+  width: 100%;
+  height: auto;
+}
+
+.fifty-fabulous-alumni__home-photo-item {
+  width: 25%;
+  height: 25%;
+  display: inline-block;
+  float: left;
+}
+
+.fifty-fabulous-alumni__home-text{
+  color: $white;
+  font-size: 19px;
+  font-weight: 400;
+  width: 499px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.fifty-fabulous-alumni__button{
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 320px;
+}
+
+@media(min-width:1730px){
+  .fifty_fabulous_alumni__home-lead {
+      background-size: 43%;
+  }
+}
+
+@media (max-width: 775px) {
+  .fifty-fabulous-alumni__home-text{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+  }
+}
+
+
+.fifty-fabulous-alumni
+ {
+  padding: 0;
+}
+
+@media (max-width: 775px) {
+  .fifty-fabulous-alumni
+  {
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+  }
+}
+
+
+    @media (min-width:26.5625em) and (max-width:48em) {
+      .fifty-fabulous-alumni__home-lead {
+        height: 50px;
+        background-size: contain;
+      }
+    }
+
+    @media(max-width:425px) {
+      .fifty-fabulous-alumni__home-lead {
+        height: 32px;
+      }
+    }
+
+    @media(max-width:375px) {
+      .fifty-fabulous-alumni__home-lead {
+        height: 32px;
+      }
+    }
+
+    @media(max-width:320px) {
+      .fifty-fabulous-alumni__home-lead {
+        height: 32px;
+      }
+    }

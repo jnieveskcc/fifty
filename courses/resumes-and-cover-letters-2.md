@@ -10,4 +10,5 @@ showcase your employment and educational background
 in a chronologically formatted resume. Components of a successful cover letter will also be reviewed. Great for people
 who are looking to move up in a career field."
 Image: resume.jpg
+Status: Completed
 ---
