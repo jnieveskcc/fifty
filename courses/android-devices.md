@@ -7,5 +7,5 @@ Description: Learn to utilize all the features your android phone offers. Topics
 Instructor: Jo Daley
 Course-No: MICR 9020.Q13
 Image: android-devices-advanced-dpc_101847366.jpg
-Status: Closed
+Status: Completed
 ---

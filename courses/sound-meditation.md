@@ -7,4 +7,5 @@ Description: "In this very calming and relaxing class, we will begin with very s
 Instructor: Gary Paruszkiewicz
 Course-No: LECT 8790.Q13
 Image: meditation-dpc_97680501.jpg
+Status: Closed
 ---

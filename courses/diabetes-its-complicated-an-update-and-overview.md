@@ -8,5 +8,5 @@ Class note: 5 contact hours awarded to Illinois licensed nurses, nursing home ad
 Instructor: Barb Bancroft
 Course-No: HLTH 369A.A13
 Image: diabetes-iS_000005489409Small.jpg
-Status: filling fast
+Status: Closed
 ---

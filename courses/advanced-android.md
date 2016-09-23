@@ -8,4 +8,5 @@ Prerequisite: Completion of the Android Basic class or a solid knowledge of the 
 Instructor: Jo Daley
 Course-No: MICR 9020.Q13
 Image: android-advanced.jpg
+Status: Closed
 ---

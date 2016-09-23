@@ -7,5 +7,5 @@ Description: This class is ideal for new iPhone or iPad users. You’ll learn ho
 Instructor: Jo Daley
 Course-No: LECT 9150.Q23
 Image: iphone_iS_000016367725Medium.jpg
-Status: Closed
+Status: Completed
 ---
