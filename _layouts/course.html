@@ -23,6 +23,8 @@ layout: default
 				<p class="alert course-card__filling-fast clearfix">Seats are filling fast.
 					<a class="course-card__cta button" href="https://connect.kcc.edu/wa/wa?CONSTITUENCY=WBCE&type=P&pid=ST-WBSTS027A.SHOWALL.NEW">Sign up now</a>
 				</p>
+			{% when 'open' %}
+					<a class="course-card__cta button" href="https://connect.kcc.edu/wa/wa?CONSTITUENCY=WBCE&type=P&pid=ST-WBSTS027A.SHOWALL.NEW">Sign up now</a>
   		{% else %}
      		<a class="course-card__cta button" href="https://connect.kcc.edu/wa/wa?CONSTITUENCY=WBCE&type=P&pid=ST-WBSTS027A.SHOWALL.NEW">Sign up now</a>
 			{% endcase %}

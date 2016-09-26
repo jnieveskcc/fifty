@@ -2,9 +2,10 @@
 layout: masonry
 title: 50 Free Courses
 ---
-{% for course in site.data.courses %}
+{% assign sorted = (site.courses | sort: 'Date') %}
+{% for course in sorted %}
   <li>
-    <a href="/courses/{{ course.PageName-Url }}/"><img src="/assets/img/courses/{{ course.Image }}.jpg" alt="{{ course.Title }}"><h3>{{ course.Title }}<br>{{ course.Sort }}</h3>
+    <a href="{{ course.url }}"><img src="/assets/img/courses/{{ course.Image }}" alt="{{ course.Title }}"><h3>{{ course.Title }}<br>{{ course.Sort }}</h3>
   </a>
   </li>
 {% endfor %}

@@ -1,5 +1,6 @@
 ---
 layout: course
+Category: tech
 Title: Advanced Android
 Location: Room D123
 Date-Time: Monday, Sept. 26
@@ -8,5 +9,8 @@ Prerequisite: Completion of the Android Basic class or a solid knowledge of the 
 Instructor: Jo Daley
 Course-No: MICR 9020.Q13
 Image: android-advanced.jpg
+ContentWriter:
+Sort: Sept. 26
+Date: 2016-09-26 00:00
 Status: Closed
 ---

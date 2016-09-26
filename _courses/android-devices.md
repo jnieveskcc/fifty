@@ -1,5 +1,6 @@
 ---
 layout: course
+Category: tech
 Title: Android Devices
 Location: Room D123
 Date-Time: Monday, Sept. 12 5-8 p.m.
@@ -7,5 +8,8 @@ Description: Learn to utilize all the features your android phone offers. Topics
 Instructor: Jo Daley
 Course-No: MICR 9020.Q13
 Image: android-devices-advanced-dpc_101847366.jpg
+ContentWriter:
+Sort: Sept. 12
+Date: 2016-09-12 00:00
 Status: Completed
 ---

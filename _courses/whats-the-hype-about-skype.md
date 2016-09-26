@@ -1,5 +1,6 @@
 ---
 layout: course
+Category: Tech
 Title: What's the Hype about Skype?
 Location: Room D122
 Date-Time: Monday, Nov. 28
@@ -8,5 +9,8 @@ Class notes: Using Skype requires an internet connection and a computer or mobil
 Instructor: Jo Daley
 Course-No: COMP 9020.Q13
 Image: skype-gi-181855215.jpg
+ContentWriter:
+Sort: Nov. 28
+Date: 2016-11-28 00:00
 Status: Closed
 ---

@@ -1,5 +1,6 @@
 ---
 layout: course
+Category: Lifelong Learning
 Title: A Behind the Scenes Look at Racing
 Location: Room D123
 Date-Time: Tuesday, Nov. 15, 1-3 p.m.
@@ -7,5 +8,8 @@ Description: "Take a look 'under the hood' of different racing worlds such as dr
 Instructor: Art Supernant
 Course-No: LLLI 9500.A13
 Image: race-car-IS_000040686226_Large.jpg
-Status: 
+ContentWriter:
+Sort: Nov. 15
+Date: 2016-11-15 00:00
+Status: Open
 ---

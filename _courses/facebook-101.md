@@ -1,5 +1,6 @@
 ---
 layout: course
+Category: Tech
 Title: Facebook 101
 Location: Room D122
 Date-Time: Monday, Nov. 7
@@ -7,5 +8,8 @@ Description: Learn the ins and outs of the world’s largest social networking s
 Instructor: Jo Daley
 Course-No: LECT 8180.Q13
 Image: Facebook-Social-dpc_82041204.jpg
+ContentWriter:
+Sort: Nov. 7
+Date: 2016-11-07 00:00
 Status: Closed
 ---

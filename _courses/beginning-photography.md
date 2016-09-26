@@ -1,5 +1,6 @@
 ---
 layout: course
+Category: Hobbie
 Title: Beginning Photography
 Location: Room D124
 Date-Time: Tuesdays, Sept. 13-Nov. 1, 7-9 p.m.
@@ -7,5 +8,8 @@ Description: Let Wayne Baranowski help you get acquainted with your camera. Lear
 Instructor: Wayne Baranowski
 Course-No: ARTS 301D.Q13
 Image: beginning-photography-dpc_78949277.jpg
+ContentWriter:
+Sort: Sept. 13-Nov. 1
+Date: 2016-09-13 00:00
 Status: Closed
 ---

@@ -1,5 +1,6 @@
 ---
 layout: course
+Category: Health
 Title: "Diabetes&mdash;it's Complicated. An Update and Overview"
 Location: Iroquois Room
 Date-Time: Friday, Oct. 28, 8:30 a.m.-4 p.m.
@@ -8,5 +9,8 @@ Class note: 5 contact hours awarded to Illinois licensed nurses, nursing home ad
 Instructor: Barb Bancroft
 Course-No: HLTH 369A.A13
 Image: diabetes-iS_000005489409Small.jpg
+ContentWriter:
+Sort: Oct. 28
+Date: 2016-10-28 00:00
 Status: Closed
 ---

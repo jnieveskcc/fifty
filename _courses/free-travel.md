@@ -1,5 +1,6 @@
 ---
 layout: course
+Category: Travel (Hobbie/Personal Development)
 Title: Free Travel
 Course-No: TRAV 9033.Q13
 Instructor: Gina Henry
@@ -9,5 +10,8 @@ Description: "Come learn more than 200 practical tips to afford a “moneymaking
 Register today before it fills up. <b>The first ten seats are free.</b>
 Otherwise cost is $45."
 Image: traveling-for-free-dpc_92360585.jpg
+ContentWriter:
+Sort: Oct. 4
+Date: 2016-10-04 00:00
 Status: Only paying seats available
 ---

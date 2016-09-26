@@ -12,3 +12,7 @@ sass:
   sourcemap: true
 
 exclude: ['README.md']
+
+collections:
+  courses:
+    output: true;

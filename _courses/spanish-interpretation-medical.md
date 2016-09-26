@@ -1,5 +1,6 @@
 ---
 layout: course
+Category: Professional Development/Languages
 Title: "Spanish Interpretation: Medical"
 Location: Room D123
 Date-Time: Mondays, Sept. 19-Oct 24, 6-9 p.m.
@@ -7,5 +8,8 @@ Description: "Interpreters are needed in medical environments to assist clients 
 Instructor: Lupita Sorich
 Course-No: SPAN 341D.Q13
 Image: spanish-iS_000015675640Large.jpg
+ContentWriter:
+Sort: Sept. 19-Oct 24
+Date: 2016-09-19 18:00
 Status: Closed
 ---

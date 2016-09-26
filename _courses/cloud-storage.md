@@ -1,5 +1,6 @@
 ---
 layout: course
+Category: tech
 Title: Cloud Storage
 Location: Room D122
 Date-Time: Monday, Nov. 14
@@ -7,5 +8,8 @@ Description: "Access your photos, music or files from anywhere! With cloud stora
 Instructor: Jo Daley
 Course-No: COMP 9010.Q13
 Image: clouds_iS_000039998560Large.jpg
+ContentWriter:
+Sort: Nov. 14
+Date: 2016-11-14 00:00
 Status: Closed
 ---

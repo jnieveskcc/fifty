@@ -26,12 +26,13 @@ title: Home
   <section id="courses-gallery" class="course-gallery">
     <div class="home-course-inner flex--center flex">
       <div class='home-course-gallery'>
-        <div class='imgWrap imgWrap1' style='background-image:url(/assets/img/courses/traveling-for-free-dpc_92360585.jpg); '><a class="home-course__link" href="/courses/free-travel/">Free Travel</a></div>
-        <div class='imgWrap imgWrap2' style='background-image:url(/assets/img/courses/race-car-IS_000040686226_Large.jpg);'><a class="home-course__link" href="/courses/a-behind-the-scenes-look-at-racing">A Behind the Scenes Look at Racing</a></div>
-        <div class='imgWrap imgWrap3' style='background-image:url(/assets/img/courses/job-offer_iS_000003356691Large.jpg);'><a class="home-course__link" href="/courses/i-have-an-interview-now-what">I Have an Interview... Now What?</a></div>
-        <div class='imgWrap imgWrap4' style='background-image:url(/assets/img/courses/lincoln-gi-479502104.jpg);'><a class="home-course__link" href="/courses/great-words-of-wisdom/">Great Words of Wisdom</a></div>
-        <div class='imgWrap imgWrap5' style='background-image:url(/assets/img/courses/jobs-iS_000019916394Large.jpg);'><a class="home-course__link" href="/courses/job-fair-to-job-offer">From Job Fair to Job Offer</a></div>
-        <div class='imgWrap imgWrap6' style='background-image:url(/assets/img/courses/counselinghumor-iS_000020107404Large.jpg);'><a class="home-course__link" href="/courses/humor-in-counseling">Humor in Counseling</a></div>
+        {% assign sorted = site.courses %}
+        {% for course in sorted %}
+        {% if course.Status contains 'Open' or course.Status contains 'Only paying seats available'%}
+          <div class='imgWrap imgWrap1' style='background-image:url(/assets/img/courses/{{ course.Image }}); '><a class="home-course__link" href="{{ course.url }}">{{ course.Title }}</a></div>
+        {% endif %}
+        {% endfor %}
+
       </div>
     </div>
     <div class="home-course__inner-b flex flex--center">

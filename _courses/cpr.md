@@ -1,5 +1,6 @@
 ---
 layout: course
+Category: CPR
 Title: CPR
 Location: Room D151
 Date-Time: Saturday, Oct. 8; 8 a.m.-noon
@@ -7,5 +8,8 @@ Description: "This course provides the information, training, demonstration and 
 Instructor: Sheree Wertz
 Course-No: WELL 9006.K23
 Image: CPR-iS_000003502929Large.jpg
+ContentWriter:
+Sort: Oct. 8
+Date: 2016-10-08 00:00
 Status: Closed
 ---
