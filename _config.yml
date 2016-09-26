@@ -16,3 +16,5 @@ exclude: ['README.md']
 collections:
   courses:
     output: true;
+  events:
+    output: true;
