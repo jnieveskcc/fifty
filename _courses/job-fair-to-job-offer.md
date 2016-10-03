@@ -11,5 +11,5 @@ Image: jobs-iS_000019916394Large.jpg
 ContentWriter:
 Sort: Sept. 28; 4-5:30 p.m.
 Date: 2016-09-28 04:00
-Status: Open
+Status: Completed
 ---

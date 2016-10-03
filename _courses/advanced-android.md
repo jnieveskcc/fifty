@@ -12,5 +12,5 @@ Image: android-advanced.jpg
 ContentWriter:
 Sort: Sept. 26
 Date: 2016-09-26 00:00
-Status: Closed
+Status: Completed
 ---

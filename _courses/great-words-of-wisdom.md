@@ -11,5 +11,5 @@ Image: lincoln-gi-479502104.jpg
 ContentWriter:
 Sort: Sept. 27
 Date: 2016-09-27 00:00
-Status: Open
+Status: Completed
 ---
