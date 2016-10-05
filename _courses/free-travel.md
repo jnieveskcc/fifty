@@ -13,5 +13,5 @@ Image: traveling-for-free-dpc_92360585.jpg
 ContentWriter:
 Sort: Oct. 4
 Date: 2016-10-04 00:00
-Status: Only paying seats available
+Status: Completed
 ---

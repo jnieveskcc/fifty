@@ -16,4 +16,5 @@ Students, faculty, staff and community invited<br>
 Refreshments, remarks and memorabilia!</p>"
 Description: "Mascot Monday – our new mascot costume is presented to the campus community. Spirit session at noon in the College Center. Freebies and refreshments"
 Image:
+Sort-date: 2016-10-03
 ---

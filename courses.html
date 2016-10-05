@@ -4,8 +4,11 @@ title: 50 Free Courses
 ---
 {% assign sorted = (site.courses | sort: 'Date') %}
 {% for course in sorted %}
+{% if course.Status == 'Completed' %}
+{% else %}
   <li>
     <a href="{{ course.url }}"><img src="/assets/img/courses/{{ course.Image }}" alt="{{ course.Title }}"><h3>{{ course.Title }}<br>{{ course.Sort }}</h3>
   </a>
   </li>
+{% endif %}
 {% endfor %}
