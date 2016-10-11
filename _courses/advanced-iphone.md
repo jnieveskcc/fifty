@@ -11,5 +11,5 @@ Image: iphone-basic.jpg
 ContentWriter:
 Sort: Oct. 10
 Date: 2016-10-10 00:00
-Status: Closed
+Status: Completed
 ---
