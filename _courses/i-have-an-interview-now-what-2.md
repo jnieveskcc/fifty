@@ -11,5 +11,5 @@ Image: job-offer_iS_000003356691Large.jpg
 ContentWriter:
 Sort: Oct. 13, 5:30-6:30 p.m.
 Date: 2016-10-13 17:30
-Status: Open
+Status: Completed
 ---
