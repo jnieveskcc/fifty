@@ -1,0 +1,17 @@
+---
+layout: default
+title: Faculty Lecture Series
+---
+<h2 class="lectures__lead">Lectures</h2>
+<ul class="lectures__item-group">
+{% assign sorted = (site.lectures | sort: 'Date') %}
+{% for lecture in sorted %}
+{% if lecture.Status == 'Completed' %}
+{% else %}
+  <li>
+    <a href="{{ lecture.url }}"><h3>{{ lecture.Title }}<br>{{ lecture.Sort }}</h3>
+  </a>
+  </li>
+{% endif %}
+{% endfor %}
+</ul>

@@ -18,3 +18,5 @@ collections:
     output: true;
   events:
     output: true;
+  lectures:
+    output: true;

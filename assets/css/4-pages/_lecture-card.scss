@@ -1,0 +1,125 @@
+.lecture-card {
+  background-color: $white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-left: 35px;
+  margin-top: 35px;
+  padding: 30px;
+  width: 861px;
+}
+
+.lecture-card__title {
+  color: $primary-red;
+}
+
+.lecture-card__cta {
+  background-color: $link-colour;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  color: $white;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.lecture-card__closed {
+  background-color: $primary-red;
+}
+
+.lecture-card__closed a {
+  color: $orange;
+  outline: none;
+  text-decoration: none;
+}
+
+.lecture-card__closed a:focus,
+.lecture-card__closed a:hover {
+  color: $orange;
+}
+
+.lecture-card__completed{
+  background-color: $dark-blue-green;
+}
+
+.lecture-card__completed a {
+  color: $orange;
+  outline: none;
+  text-decoration: none;
+}
+
+.lecture-card__completed a:focus,
+.lecture-card__completed a:hover {
+  color: $orange;
+}
+
+
+.lecture-card__paying-seats {
+  background-color: $accent-purple;
+  padding-bottom: 0;
+}
+
+.lecture-card__filling-fast {
+  background-color: $orange;
+  padding-bottom: 0;
+}
+
+.lecture-card__filling-fast .lecture-card__cta, .lecture-card__paying-seats .lecture-card__cta {
+  float: right;
+}
+
+.lecture-card__cta:hover {
+  background-color: $accent-blue-bright;
+  color: $white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.0);
+}
+
+.lecture-card__photo {
+  border: 1px solid $grey-3;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 2.0em;
+  display: block;
+  width: 300px;
+  height: 380px;
+}
+
+.lecture-card_inner-col-b {
+  display: block;
+  margin-right: 30px;
+  width: 475px;
+}
+
+.lecture-card_inner-col-b p{
+  font-weight: 400;
+}
+.lecture-card_inner-col-b b{
+  font-size: 18px;
+}
+
+.lecture-card_inner-col-b .alert {
+  font-weight: 600;
+}
+
+@media(max-width:767px){
+  .lecture-card {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+  }
+
+  .lecture-card_inner-col-b {
+    display: block;
+    width: auto;
+  }
+
+  .lecture-card__photo {
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+  }
+}
