@@ -11,5 +11,5 @@ Image: presidents.jpg
 ContentWriter:
 Sort: Nov. 1
 Date: 2016-11-01 00:00
-Status: Open
+Status: Completed
 ---

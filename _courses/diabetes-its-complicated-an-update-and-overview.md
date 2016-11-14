@@ -12,5 +12,5 @@ Image: diabetes-iS_000005489409Small.jpg
 ContentWriter:
 Sort: Oct. 28
 Date: 2016-10-28 00:00
-Status: Closed
+Status: Completed
 ---

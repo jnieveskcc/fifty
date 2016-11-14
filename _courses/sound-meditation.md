@@ -11,5 +11,5 @@ Image: meditation-dpc_97680501.jpg
 ContentWriter:
 Sort: Nov. 9
 Date: 2016-11-09 18:00
-Status: Closed
+Status: Completed
 ---

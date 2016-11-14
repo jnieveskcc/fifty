@@ -8,9 +8,11 @@ title: Faculty Lecture Series
 {% for lecture in sorted %}
 {% if lecture.Status == 'Completed' %}
 {% else %}
-  <li>
-    <a href="{{ lecture.url }}"><h3>{{ lecture.Title }}<br>{{ lecture.Sort }}</h3>
+  <li  class="lectures__item col-2">
+    <a href="{{ lecture.url }}"><h3 class="lectures__title bigger">{{ lecture.Title }}</h3>
   </a>
+  <span class="lectures__location"><b>Location:</b> {{ lecture.Location }}</span><br />
+  <span class="lectures__date-time"><b>Date/Time:</b> {{ lecture.Date-Time }}</span><br /><a href="{{ lecture.url }}" class="lectures__item-cta"><b>More event info </b><span class="lectures__cta-icon">&gt;</span></a>
   </li>
 {% endif %}
 {% endfor %}

@@ -11,21 +11,5 @@ layout: default
 				<b>Speaker:</b> {{page.Speaker}}
 			</p>
 			<p>{{page.Description}}</p>
-			{% case page.Status %}
-  		{% when 'Closed' %}
-				<p class="alert lecture-card__closed">Sorry! This lecture is full. Choose another <a href="/lectures/">free lecture</a>.</p>
-  		{% when 'Completed' %}
-				<p class="alert lecture-card__completed">The lecture has ended. Choose another <a href="/lectures/">free lecture</a>.</p>
-  		{% when 'Only paying seats available' %}
-    		<p class="alert lecture-card__paying-seats clearfix">ONLY PAYING SEATS AVAILABLE;<br/>FREE seats are FULL <a class="lecture-card__cta button" href="https://connect.kcc.edu/wa/wa?CONSTITUENCY=WBCE&type=P&pid=ST-WBSTS027A.SHOWALL.NEW">Sign up now</a></p>
-			{% when 'filling fast' %}
-				<p class="alert lecture-card__filling-fast clearfix">Seats are filling fast.
-					<a class="lecture-card__cta button" href="https://connect.kcc.edu/wa/wa?CONSTITUENCY=WBCE&type=P&pid=ST-WBSTS027A.SHOWALL.NEW">Sign up now</a>
-				</p>
-			{% when 'open' %}
-					<a class="lecture-card__cta button" href="https://connect.kcc.edu/wa/wa?CONSTITUENCY=WBCE&type=P&pid=ST-WBSTS027A.SHOWALL.NEW">Sign up now</a>
-  		{% else %}
-     		<a class="lecture-card__cta button" href="https://connect.kcc.edu/wa/wa?CONSTITUENCY=WBCE&type=P&pid=ST-WBSTS027A.SHOWALL.NEW">Sign up now</a>
-			{% endcase %}
 		</div>
 	</section>

@@ -11,5 +11,5 @@ Image: spanish-iS_000015675640Large.jpg
 ContentWriter:
 Sort: Sept. 19-Oct 24
 Date: 2016-09-19 18:00
-Status: Closed
+Status: Completed
 ---

@@ -1,18 +1,49 @@
 .lectures__page {
   background-color: $ochre;
+  background-image: url('/assets/img/goldshine.jpg');
+  background-size: cover;
 }
 
-section.grid-wrap {
-  padding: 1em;
+.lectures__item-group {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lectures__lead {
+  color: $navy-blue;
+  @extend .home-lead;
+}
+
+.lectures__item {
+  background-color: $white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.lectures__cta-icon {
+  background: $navy-blue;
+  color: $text-secondary-colour;
+  font-weight: bold;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.25;
+  padding: 0.0em 0.3em;
   text-align: center;
+  transition: all 0.15s ease-in-out;
+border-radius: 50%;}
+
+.lectures__title{
+  color: $primary-red;
 }
 
-section.article {
-  background-color: $bone-white;
-  min-height: 100vh;
-  padding-left: 20px;
-}
+.lectures__cta-icon:hover {
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.4); }
 
-section.article h1 {
-  color: $violet;
+@media(max-width:767px){
+  .lectures__item.col-2 {
+    width: 70%;
+  }
 }
