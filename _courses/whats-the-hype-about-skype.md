@@ -12,5 +12,5 @@ Image: skype-gi-181855215.jpg
 ContentWriter:
 Sort: Nov. 28
 Date: 2016-11-28 00:00
-Status: Closed
+Status: Completed
 ---
