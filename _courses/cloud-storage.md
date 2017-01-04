@@ -11,5 +11,5 @@ Image: clouds_iS_000039998560Large.jpg
 ContentWriter:
 Sort: Nov. 14
 Date: 2016-11-14 00:00
-Status: Closed
+Status: Completed
 ---

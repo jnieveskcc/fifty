@@ -25,9 +25,9 @@ title: Home
 
   <section id="courses-gallery" class="course-gallery">
 
-    <!-- <div class="home-course-inner flex--center flex">
+    <div class="home-course-inner flex--center flex">
       <div class='home-course-gallery'>
-        {% assign sorted = site.courses %}
+        {% assign sorted = (site.courses | sort: 'Date')%}
         {% for course in sorted %}
         {% if course.Status contains 'Open' or course.Status contains 'Only paying seats available'%}
           <div class='imgWrap imgWrap1' style='background-image:url(/assets/img/courses/{{ course.Image }}); '><a class="home-course__link" href="{{ course.url }}">{{ course.Title }}</a></div>
@@ -35,7 +35,7 @@ title: Home
         {% endfor %}
 
       </div>
-    </div> -->
+    </div>
     <div class="home-course__inner-b flex flex--center">
         <h2 class="card--headline">Fifty Free courses</h2>
         <p class="home-course__text"><b>Fifty</b> free continuing education classes will be offered throughout the year.</p>
