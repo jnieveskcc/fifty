@@ -11,5 +11,5 @@ Image: typsy-gypsy-january-cardinals.jpg
 ContentWriter:
 Sort: Jan. 31, 6-8:30 p.m.
 Date: 2017-01-31 18:00
-Status: Open
+Status: Completed
 ---
