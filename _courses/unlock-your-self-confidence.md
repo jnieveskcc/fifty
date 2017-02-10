@@ -11,5 +11,5 @@ Image: confidence_dpc_50523985.jpg
 ContentWriter:
 Sort: Feb. 23, 6-8 p.m.
 Date: 2017-02-23 18:00
-Status: Open
+Status: Completed
 ---

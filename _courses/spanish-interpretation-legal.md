@@ -11,5 +11,5 @@ Image: spanish-iS_000015675640Large.jpg
 ContentWriter:
 Sort: Feb. 6-March 27
 Date: 2017-02-06 18:00
-Status: Open
+Status: Completed
 ---

@@ -11,5 +11,5 @@ Image: analysis_iS_000020384713Medium-blood-vials.jpg
 ContentWriter:
 Sort: April 13
 Date: 2017-04-13 00:00
-Status: Open
+Status: Completed
 ---
