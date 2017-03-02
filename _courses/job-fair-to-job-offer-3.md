@@ -11,5 +11,5 @@ Image: jobs-iS_000019916394Large.jpg
 ContentWriter:
 Sort: Feb. 22; 5:30-7 p.m.
 Date: 2017-02-22 17:30
-Status: Open
+Status: Completed
 ---

@@ -1,0 +1,28 @@
+//home page course gallery
+
+.gala{
+  background-color: $primary-blue;
+  background-image: url("/assets/img/gala-banner.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 768px;
+}
+
+@media(min-width:1730px){
+  .gala{
+    height: 768px;
+  }
+}
+
+@media(max-width:768px) {
+  .gala{
+    height: 400px;
+  }
+
+}
+
+@media (min-width:26.5625em) and (max-width:48em) {
+  .gala{
+    height: 400px;
+  }
+}
