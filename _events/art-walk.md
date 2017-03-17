@@ -1,10 +1,10 @@
 ---
 layout: event
-Title: Art Walk
+Title: "Art & Cocktails"
 Location: "KCC's Riverfront Campus"
-Date-Time: April 2017
-Description-Large: "Meet artist Christine Rojek and learn more about her sculpture &quot;Breezekeeper&quot;. The outdoor sculpture is the latest addition to KCC's north lawn. Also, take a self-guided tour of the fine arts collection on campus."
-Description: "Meet artist Christine Rojek and learn more about her sculpture &qout;Breezekeeper&quot;. The outdoor sculpture is the latest addition to KCC's north lawn. Also, take a self-guided tour of the fine arts collection on campus."
+Date-Time: "Thursday, April 13, 5:30 p.m. 2017"
+Description-Large: "Join us for a reception with hors d’oeuvres and drinks to celebrate KCC’s fine arts collection and outdoor sculptures. Meet artists and tour highlighted works. There is no cost and the public is invited."
+Description: "Join us for a reception with hors d’oeuvres and drinks to celebrate KCC’s fine arts collection and outdoor sculptures. Meet artists and tour highlighted works. There is no cost and the public is invited."
 Image:
-Sort-date: 2017-04-01
+Sort-date: 2017-04-13
 ---
