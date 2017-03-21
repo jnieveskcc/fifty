@@ -1,3 +1,16 @@
 .fifty-fabulous-alumni__page {
   background-color: $ochre;
 }
+
+form {
+  background-color: $ochre;
+}
+.form-header-group {
+  border-color: $ochre;
+}
+.form-matrix-table tr {
+  border-color: $ochre;
+}
+.form-matrix-table tr:nth-child(2n) {
+  background-color: $ochre;
+}
