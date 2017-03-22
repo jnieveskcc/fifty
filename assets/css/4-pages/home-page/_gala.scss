@@ -8,6 +8,13 @@
   height: 768px;
 }
 
+.home-gala__inner {
+  -webkit-align-items: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+    height: 700px;
+}
+
 .gala__link{
   display: block;
   width:100%;
@@ -18,6 +25,10 @@
   .gala{
     height: 768px;
   }
+
+  .home-gala__inner {
+      height: 700px;
+  }
 }
 
 @media(max-width:768px) {
@@ -25,10 +36,17 @@
     height: 400px;
   }
 
+  .home-gala__inner {
+      height: 370px;
+  }
 }
 
 @media (min-width:26.5625em) and (max-width:48em) {
   .gala{
     height: 400px;
+  }
+
+  .home-gala__inner {
+      height: 370px;
   }
 }
