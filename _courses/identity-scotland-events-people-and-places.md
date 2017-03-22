@@ -20,5 +20,5 @@ Image: scottland-gi-487330138.jpg
 ContentWriter:
 Sort: April 12
 Date: 2017-04-12 00:00
-Status: Available soon
+Status: Open
 ---

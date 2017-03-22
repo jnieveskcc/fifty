@@ -11,5 +11,5 @@ Image: estate-planning-dpc_60296922.jpg
 ContentWriter:
 Sort: March 14, 6:30-8:30 p.m.
 Date: 2017-03-14 18:30
-Status: Open
+Status: Completed
 ---

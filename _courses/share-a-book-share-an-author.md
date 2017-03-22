@@ -13,11 +13,11 @@ or author. Seating is limited to
 15. Enjoy the morning discussion
 and go home with a new list of authors and books to
 enjoy. Tea and scones provided."
-Instructor: Charlie Cooke
+Instructor: Dr. Maureen Shannon and Linda Klette
 Course-No: LLLI 9820.f16
 Image: Bradley_House.jpg
 ContentWriter:
-Sort: April 27
-Date: 2017-04-27 00:00
-Status: Available soon
+Sort: April. 27, 10-11:30 a.m.
+Date: 2017-04-27 10:00
+Status: Open
 ---

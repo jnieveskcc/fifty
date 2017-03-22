@@ -9,7 +9,7 @@ Instructor: Charlie Cooke
 Course-No: LLLI 9520.A16
 Image: heating_iS_000023689123_Large.jpg
 ContentWriter:
-Sort: April 28
-Date: 2017-04-28 00:00
-Status: Available soon
+Sort: April. 28, 9:30-11 a.m.
+Date: 2017-04-28 09:30
+Status: Open
 ---

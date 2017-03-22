@@ -11,5 +11,5 @@ Image: now-hiring-iS-24958020-HiRes.jpg
 ContentWriter:
 Sort: March 21, 9 a.m.-noon
 Date: 2017-03-21 09:00
-Status: Open
+Status: Completed
 ---
