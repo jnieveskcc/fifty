@@ -19,5 +19,5 @@ Image: Bradley_House.jpg
 ContentWriter:
 Sort: April. 27, 10-11:30 a.m.
 Date: 2017-04-27 10:00
-Status: Open
+Status: Closed
 ---
