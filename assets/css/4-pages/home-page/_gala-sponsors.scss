@@ -1,0 +1,28 @@
+//home page course gallery
+
+.gala-sponsors{
+  background-color: $white;
+  height: 460px;
+}
+
+
+@media(min-width:1730px){
+  .gala-sponsors{
+    height: 500px;
+  }
+
+}
+
+@media(max-width:768px) {
+  .gala-sponsors{
+    height: 900px;
+  }
+
+}
+
+@media (min-width:26.5625em) and (max-width:48em) {
+  .gala-sponsors{
+    height: 900px;
+  }
+
+}
