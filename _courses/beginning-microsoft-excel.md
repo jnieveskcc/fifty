@@ -12,5 +12,5 @@ Image: excel_dc_89513036_no-teacher-bkg.jpg
 ContentWriter:
 Sort: April 20, 8 a.m.-4:30 p.m.
 Date: 2017-04-20 08:00
-Status: Closed
+Status: Completed
 ---

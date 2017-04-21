@@ -11,5 +11,5 @@ Image: organize-gy-533259345_smaller.jpg
 ContentWriter:
 Sort: April 19, 6-8 p.m.
 Date: 2017-04-19 18:00
-Status: Closed
+Status: Completed
 ---
