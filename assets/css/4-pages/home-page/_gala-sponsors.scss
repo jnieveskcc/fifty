@@ -2,27 +2,31 @@
 
 .gala-sponsors{
   background-color: $white;
-  height: 660px;
+  height: 750px;
 }
 
 
 @media(min-width:1730px){
   .gala-sponsors{
-    height: 660px;
+    height: 750px;
   }
 
 }
 
 @media(max-width:768px) {
   .gala-sponsors{
-    height: 1300px;
+    height: 1550px;
+  }
+
+  .gala-sponsor-large{
+    width: 90%;
   }
 
 }
 
 @media (min-width:26.5625em) and (max-width:48em) {
   .gala-sponsors{
-    height: 1300px;
+    height: 1550px;
   }
 
 }
