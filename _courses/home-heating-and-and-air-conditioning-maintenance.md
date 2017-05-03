@@ -11,5 +11,5 @@ Image: heating_iS_000023689123_Large.jpg
 ContentWriter:
 Sort: April. 28, 9:30-11 a.m.
 Date: 2017-04-28 09:30
-Status: Open
+Status: Completed
 ---

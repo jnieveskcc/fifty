@@ -11,5 +11,5 @@ Image: tarot-GI-142523138.jpg
 ContentWriter:
 Sort: April 26, 6-8 p.m.
 Date: 2017-04-26 18:00
-Status: Open
+Status: Completed
 ---
