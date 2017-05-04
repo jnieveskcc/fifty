@@ -2,20 +2,20 @@
 
 .gala-sponsors{
   background-color: $white;
-  height: 750px;
+  height: 900px;
 }
 
 
 @media(min-width:1730px){
   .gala-sponsors{
-    height: 750px;
+    height: 1300px;
   }
 
 }
 
 @media(max-width:768px) {
   .gala-sponsors{
-    height: 1550px;
+    height: 1950px;
   }
 
   .gala-sponsor-large{
