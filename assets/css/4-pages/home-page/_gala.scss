@@ -30,6 +30,13 @@
   margin-right: 50px;
 }
 
+.gala-attendance-message {
+  color: $text-secondary-colour;
+  padding: 20px;
+  font-weight: bold;
+  width: 450px;
+}
+
 @media(min-width:1730px){
   .gala{
     height: 768px;
