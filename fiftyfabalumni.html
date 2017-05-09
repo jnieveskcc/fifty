@@ -1,0 +1,10 @@
+---
+layout: default
+title: 50 Fab Alumni
+---
+{% for alumni in site.fiftyfabalumni %}
+<section class="event-card__item">
+<h2>{{ alumni.Alumni }}</h2>
+<p>{{ alumni.Description }}</p>
+</section>
+{% endfor %}

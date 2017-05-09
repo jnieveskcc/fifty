@@ -20,3 +20,5 @@ collections:
     output: true;
   lectures:
     output: true;
+  fiftyfabalumni:
+    output: false;
