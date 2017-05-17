@@ -35,6 +35,13 @@
   padding: 20px;
   font-weight: bold;
   width: 450px;
+  float:left;
+}
+
+.gala-button {
+  background-color: $text-secondary-colour;
+  color: $text-colour;
+  float: right;
 }
 
 @media(min-width:1730px){
