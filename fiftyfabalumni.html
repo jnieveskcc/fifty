@@ -3,8 +3,8 @@ layout: default
 title: 50 Fab Alumni
 ---
 {% for alumni in site.fiftyfabalumni %}
-<section class="event-card__item">
-<h2>{{ alumni.Alumni }}</h2>
+<section class="fiftyfabalumni-card__item">
+<h2 class="fiftyfabalumni-card__title">{{ alumni.Alumni }}</h2>
 <p>{{ alumni.Description }}</p>
 </section>
 {% endfor %}

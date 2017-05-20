@@ -14,3 +14,44 @@ form {
 .form-matrix-table tr:nth-child(2n) {
   background-color: $ochre;
 }
+
+.fiftyfabalumni-card__item {
+  background-color: $white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 35px;
+  margin-top: 35px;
+  padding: 30px;
+  width: 320px;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fiftyfabalumni-card__title {
+  background-color: $primary-blue;
+  color: $text-secondary-colour;
+}
+
+.fiftyfabalumni-card__item p{
+  font-weight: 400;
+}
+.fiftyfabalumni-card__item b{
+  font-size: 18px;
+}
+
+@media(max-width:767px){
+  .fiftyfabalumni-card__item {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
