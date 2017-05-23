@@ -2,31 +2,7 @@
 
 .gala-sponsors{
   background-color: $white;
-  height: 1290px;
-}
-
-
-@media(min-width:1730px){
-  .gala-sponsors{
-    height: 1300px;
-  }
-
-}
-
-@media(max-width:768px) {
-  .gala-sponsors{
-    height: 2480px;
-  }
-
-  .gala-sponsor-large{
-    width: 90%;
-  }
-
-}
-
-@media (min-width:26.5625em) and (max-width:48em) {
-  .gala-sponsors{
-    height: 1590px;
-  }
-
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
