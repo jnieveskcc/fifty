@@ -2,6 +2,14 @@
   background-image: url('/assets/img/goldshine.jpg');
   background-size: 120%;
 }
+
+@media (max-width: 1170px) {
+  .home-fab
+  {
+    background-size: cover;
+  }
+}
+
 .home-fab img {
   width:80%;
   margin: auto;
