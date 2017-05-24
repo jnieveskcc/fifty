@@ -11,5 +11,5 @@ Image: basic-sun-gi-597242598.jpg
 ContentWriter:
 Sort: May 23, 6:30-8:30 p.m.
 Date: 2017-05-23 18:30
-Status: Open
+Status: Completed
 ---

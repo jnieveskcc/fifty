@@ -11,5 +11,5 @@ Image: funeral.jpg
 ContentWriter:
 Sort: May 5, 9 a.m.-noon
 Date: 2017-05-05 09:00
-Status: Open
+Status: Completed
 ---

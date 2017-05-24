@@ -11,5 +11,5 @@ Image: goals-GI-171450836.jpg
 ContentWriter:
 Sort: May 11, 6-9 p.m.
 Date: 2017-05-11 18:00
-Status: Open
+Status: Completed
 ---

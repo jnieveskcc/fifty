@@ -110,7 +110,7 @@
   background-repeat: no-repeat;
     fill: $text-secondary-colour;
   background-position: center;
-  background-size: 82%;
+  background-size: 150%;
   width: 100%;
   height: 105px;
   display: block;
@@ -119,7 +119,7 @@
 
 @media(min-width:1730px){
   .card--headline {
-      background-size: 48%;
+      background-size: 130%;
   }
 }
 
