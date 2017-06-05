@@ -11,5 +11,5 @@ Image: bill-of-rights.jpg
 ContentWriter:
 Sort: May 31, 10-11:30 a.m.
 Date: 2017-05-31 10:00
-Status: Open
+Status: Completed
 ---

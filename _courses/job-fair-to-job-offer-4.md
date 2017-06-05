@@ -11,5 +11,5 @@ Image: jobs-iS_000019916394Large.jpg
 ContentWriter:
 Sort: June 22, 5:30-7 p.m.
 Date: 2017-06-22 17:30
-Status: open
+Status: Closed
 ---
