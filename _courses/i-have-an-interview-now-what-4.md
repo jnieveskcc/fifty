@@ -11,5 +11,5 @@ Image: job-offer_iS_000003356691Large.jpg
 ContentWriter:
 Sort: June 29, 5:30-7 p.m.
 Date: 2017-06-29 17:30
-Status: Open
+Status: Completed
 ---
