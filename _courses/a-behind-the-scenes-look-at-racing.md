@@ -13,8 +13,10 @@ Description: >-
 Instructor: None
 Course-No: LLLI 9500.A13
 Image: race-car-IS_000040686226_Large.jpg
-ContentWriter:
+ContentWriter: None
 Sort: Nov. 15
 Date: 2016-11-15 06:00:00
 Status: Completed
 ---
+
+
