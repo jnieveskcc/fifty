@@ -10,7 +10,7 @@ Description: >-
   shares experiences as a driver, car builder, fabricator, pit crew member and  
   mechanic for all of the above professional racing classes. Potential
   students   are race fans and those who want to know more about racing.
-Instructor: John
+Instructor: John Nieves
 Course-No: LLLI 9500.A13
 Image: /assets/img/courses/race-car-IS_000040686226_Large.jpg
 ContentWriter: None
