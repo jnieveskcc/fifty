@@ -12,7 +12,7 @@ Description: >-
   students   are race fans and those who want to know more about racing.
 Instructor: John
 Course-No: LLLI 9500.A13
-Image: race-car-IS_000040686226_Large.jpg
+Image: /assets/img/courses/race-car-IS_000040686226_Large.jpg
 ContentWriter: None
 Sort: Nov. 15
 Date: 2016-11-15 06:00:00
