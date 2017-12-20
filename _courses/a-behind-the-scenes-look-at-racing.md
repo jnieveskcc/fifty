@@ -20,3 +20,4 @@ Status: Completed
 ---
 
 
+Take a look 'under the hood' of different racing worlds such as draf racing, &nbsp; Indy care, NASCAR and unlimited Reno Air Racers. You'll ride shotgun as Art &nbsp; shares experiences as a driver, car builder, fabricator, pit crew member and &nbsp; mechanic for all of the above professional racing classes. Potential students &nbsp; are race fans and those who want to know more about racing.
